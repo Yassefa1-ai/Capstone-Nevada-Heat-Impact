@@ -7,18 +7,21 @@ echo "-------------------------------------------------------"
 echo "🚀 Initializing Nevada Heat Impact Prediction Pipeline"
 echo "-------------------------------------------------------"
 
-# 1. Handle Virtual Environment
-if [ ! -d ".venv" ]; then
-    echo "🛠️  Creating virtual environment..."
-    python3 -m venv .venv
-fi
+# 1. Always recreate the virtual environment fresh to avoid pip corruption
+echo "🛠️  Recreating virtual environment (ensures clean pip)..."
+rm -rf .venv
+python3 -m venv .venv
 
 echo "🔌 Activating virtual environment..."
 source .venv/bin/activate
 
-# 2. Install Dependencies
-echo "📦 Step 1: Installing dependencies..."
+# 2. Bootstrap pip using the system ensurepip (bypasses the broken venv pip entirely)
+echo "📦 Step 1: Bootstrapping pip..."
+python3 -m ensurepip --upgrade
 python3 -m pip install --upgrade pip --quiet
+
+# 3. Install dependencies
+echo "📦 Step 2: Installing dependencies..."
 python3 -m pip install --quiet "numpy<2.0.0"
 python3 -m pip install --quiet \
     pandas \
@@ -32,12 +35,11 @@ python3 -m pip install --quiet \
     nbconvert \
     holidays
 
-# 3. Pre-flight data file checks
+# 4. Pre-flight data file checks
 echo ""
 echo "🗂️  Checking data files..."
 MISSING=0
 
-# --- Incident data (needed for models to run) ---
 if [ ! -f "../Data/Overdose Data/overdose_weather_merge.csv" ]; then
     echo "  ⚠️  overdose_weather_merge.csv not found at ../Data/Overdose Data/"
     echo "      Overdose models will be skipped."
@@ -50,7 +52,6 @@ if [ ! -f "../Data/Combined Datasets/combined_all.csv" ]; then
     MISSING=1
 fi
 
-# --- Heat deaths data (accept CSV or any Excel variant) ---
 HEAT_FOUND=0
 for heat_path in \
     "Heat_Related_2021-2024.csv" \
@@ -69,8 +70,7 @@ done
 
 if [ "$HEAT_FOUND" -eq 0 ]; then
     echo "  ⚠️  No heat-related deaths file found."
-    echo "      Place Heat_Related_2021-2024.csv, Heat_Deaths_EOY_2025__1_.xlsx,"
-    echo "      or Heat_Related_2024_EOY_Coroner-dataset.xlsx in this directory."
+    echo "      Place Heat_Related_2021-2024.csv or the EOY Excel files in this directory."
     MISSING=1
 fi
 
@@ -81,8 +81,8 @@ if [ "$MISSING" -eq 1 ]; then
 fi
 echo ""
 
-# 4. Execute Overdose Notebook
-echo "💉 Step 2: Executing Overdose Time Series Model..."
+# 5. Execute Overdose Notebook
+echo "💉 Step 3: Executing Overdose Time Series Model..."
 jupyter nbconvert \
     --to notebook \
     --execute \
@@ -91,8 +91,8 @@ jupyter nbconvert \
     --allow-errors \
     overdose_time_series.ipynb
 
-# 5. Execute Assault Notebook
-echo "👊 Step 3: Executing Assault Time Series Model..."
+# 6. Execute Assault Notebook
+echo "👊 Step 4: Executing Assault Time Series Model..."
 jupyter nbconvert \
     --to notebook \
     --execute \
