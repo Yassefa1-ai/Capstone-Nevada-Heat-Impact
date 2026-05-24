@@ -1,0 +1,67 @@
+zip_code,lat,lon,label,confidence,api_source
+89101,36.172547,-115.122233,"89101, Las Vegas, NV, USA",1.0,positionstack_cache
+89104,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_api
+89030,36.211515,-115.124129,"89030, North Las Vegas, NV, USA",1.0,positionstack_cache
+89106,36.181706,-115.163231,"89106, Las Vegas, NV, USA",1.0,positionstack_cache
+89102,36.14543,-115.186825,"89102, Las Vegas, NV, USA",1.0,positionstack_cache
+89121,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89119,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89169,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89122,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89110,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89109,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89118,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_api
+89103,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89156,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_api
+89120,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89011,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89123,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89015,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_api
+89029,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89074,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89142,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_api
+89107,36.171241,-115.209288,"89107, Las Vegas, NV, USA",1.0,positionstack_cache
+89108,36.205256,-115.223639,"89108, Las Vegas, NV, USA",1.0,positionstack_cache
+89128,36.196814,-115.264364,"89128, Las Vegas, NV, USA",1.0,positionstack_api
+89146,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89014,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89117,36.140961,-115.281091,"89117, Las Vegas, NV, USA",1.0,positionstack_cache
+89135,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89052,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_api
+89149,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89027,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_api
+89081,36.25789,-115.107818,"89081, North Las Vegas, NV, USA",1.0,positionstack_cache
+89147,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_api
+89130,36.253987,-115.227108,"89130, Las Vegas, NV, USA",1.0,positionstack_cache
+89129,36.233315,-115.29015,"89129, Las Vegas, NV, USA",1.0,positionstack_api
+89002,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89005,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89060,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_api
+89183,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89113,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89048,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89178,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_api
+89061,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89144,36.178891,-115.320753,"89144, Las Vegas, NV, USA",1.0,positionstack_api
+89019,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89031,36.258916,-115.171797,"89031, North Las Vegas, NV, USA",1.0,positionstack_api
+89165,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89012,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89148,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_api
+89086,36.292283,-115.108492,"89086, North Las Vegas, NV, USA",1.0,positionstack_cache
+89084,36.296901,-115.174092,"89084, North Las Vegas, NV, USA",1.0,positionstack_cache
+89040,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_api
+89134,36.202736,-115.30775,"89134, Las Vegas, NV, USA",1.0,positionstack_cache
+89131,36.306143,-115.243024,"89131, Las Vegas, NV, USA",1.0,positionstack_cache
+89139,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89191,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89199,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89179,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89116,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89166,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_api
+89161,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89145,36.167691,-115.277861,"89145, Las Vegas, NV, USA",1.0,positionstack_cache
+89124,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_api
+89021,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache
+89018,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_api
+89445,36.190364,-115.279104,"Las Vegas, NV, USA",0.6,positionstack_cache

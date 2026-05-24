@@ -1,0 +1,3350 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f2406321afad2ec214b07725de790d41 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f2406321afad2ec214b07725de790d41" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f2406321afad2ec214b07725de790d41 = L.map(
+                "map_f2406321afad2ec214b07725de790d41",
+                {
+                    center: [36.1716, -115.1391],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_674194ddd21a91485364d35e8a42856d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_674194ddd21a91485364d35e8a42856d.addTo(map_f2406321afad2ec214b07725de790d41);
+        
+    
+            var feature_group_d419a0f2bc9253be588de5ae70ea4d5d = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_cf255204425ca156e5c2fb4322741901 = L.circleMarker(
+                [36.1883882198903, -115.14049683667],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_489989aa22cb86e402b6b3e1aec802ff = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d9909f6122ee83d8ae8cb5e6860ccbbd = $(`<div id="html_d9909f6122ee83d8ae8cb5e6860ccbbd" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1735867306000<br>Location: STOCKER ST & W OWENS AVE<br>Beat: B1</div>`)[0];
+                popup_489989aa22cb86e402b6b3e1aec802ff.setContent(html_d9909f6122ee83d8ae8cb5e6860ccbbd);
+            
+        
+
+        circle_marker_cf255204425ca156e5c2fb4322741901.bindPopup(popup_489989aa22cb86e402b6b3e1aec802ff)
+        ;
+
+        
+    
+    
+            var circle_marker_ab0a00dfddf8ed753dc14e6bdefca93a = L.circleMarker(
+                [36.1030363956255, -115.060037041447],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_ac1ae2438f6b4b7fb3e7bdfe74e00155 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_145b722beafe5797545c01d394aea638 = $(`<div id="html_145b722beafe5797545c01d394aea638" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1735951500000<br>Location: 4700 SACKS DR<br>Beat: J4</div>`)[0];
+                popup_ac1ae2438f6b4b7fb3e7bdfe74e00155.setContent(html_145b722beafe5797545c01d394aea638);
+            
+        
+
+        circle_marker_ab0a00dfddf8ed753dc14e6bdefca93a.bindPopup(popup_ac1ae2438f6b4b7fb3e7bdfe74e00155)
+        ;
+
+        
+    
+    
+            var circle_marker_a60e6e63564ed756edb717371611235d = L.circleMarker(
+                [35.9857077151404, -115.189786798773],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_c7c54d6e96ff553cf5647ff71b731ede = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ebd1be4b86401dca913fc0782e6c4a41 = $(`<div id="html_ebd1be4b86401dca913fc0782e6c4a41" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1736193451377<br>Location: 3700 FAMIGLIA DR<br>Beat: O5</div>`)[0];
+                popup_c7c54d6e96ff553cf5647ff71b731ede.setContent(html_ebd1be4b86401dca913fc0782e6c4a41);
+            
+        
+
+        circle_marker_a60e6e63564ed756edb717371611235d.bindPopup(popup_c7c54d6e96ff553cf5647ff71b731ede)
+        ;
+
+        
+    
+    
+            var circle_marker_dfd112c78bd8f94a94738ee84a6794ac = L.circleMarker(
+                [36.0999573813078, -115.06897197669],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_901d9bcc85f98b7e0b791562a049bf6f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e10bd7172cd875c06984ae4b78b07ec8 = $(`<div id="html_e10bd7172cd875c06984ae4b78b07ec8" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1736498340000<br>Location: 4800 E TROPICANA AVE<br>Beat: H3</div>`)[0];
+                popup_901d9bcc85f98b7e0b791562a049bf6f.setContent(html_e10bd7172cd875c06984ae4b78b07ec8);
+            
+        
+
+        circle_marker_dfd112c78bd8f94a94738ee84a6794ac.bindPopup(popup_901d9bcc85f98b7e0b791562a049bf6f)
+        ;
+
+        
+    
+    
+            var circle_marker_6259172d9ab0e26ba9d13d0cf2110bdf = L.circleMarker(
+                [36.153056950284, -115.134356083618],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_5ac8d52f70d2f68e084617ab402b3d81 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ecfa79f2f1f8877edf0a30e04518e428 = $(`<div id="html_ecfa79f2f1f8877edf0a30e04518e428" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1736578200000<br>Location: 1400 BRACKEN AVE<br>Beat: C4</div>`)[0];
+                popup_5ac8d52f70d2f68e084617ab402b3d81.setContent(html_ecfa79f2f1f8877edf0a30e04518e428);
+            
+        
+
+        circle_marker_6259172d9ab0e26ba9d13d0cf2110bdf.bindPopup(popup_5ac8d52f70d2f68e084617ab402b3d81)
+        ;
+
+        
+    
+    
+            var circle_marker_bb2d182da0a38057303f3e1a2d6e54ba = L.circleMarker(
+                [36.2072248761248, -115.026195291054],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_cb8660423587b4609227732320b8a605 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2e3454f2817eda557eab83407ca134f5 = $(`<div id="html_2e3454f2817eda557eab83407ca134f5" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1736699700000<br>Location: CONVERSE DR & N HOLLYWOOD BLVD<br>Beat: F2</div>`)[0];
+                popup_cb8660423587b4609227732320b8a605.setContent(html_2e3454f2817eda557eab83407ca134f5);
+            
+        
+
+        circle_marker_bb2d182da0a38057303f3e1a2d6e54ba.bindPopup(popup_cb8660423587b4609227732320b8a605)
+        ;
+
+        
+    
+    
+            var circle_marker_0776d2c180c26c6c2ff34baa23ff1400 = L.circleMarker(
+                [36.1377183138934, -115.112538645336],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_ed2ff329646d5e08ed3362dd1d7775b9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6bc4c33c1ea55fe68befdd91f5cdf313 = $(`<div id="html_6bc4c33c1ea55fe68befdd91f5cdf313" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1737306180000<br>Location: LONG ST & BOISE ST<br>Beat: L1</div>`)[0];
+                popup_ed2ff329646d5e08ed3362dd1d7775b9.setContent(html_6bc4c33c1ea55fe68befdd91f5cdf313);
+            
+        
+
+        circle_marker_0776d2c180c26c6c2ff34baa23ff1400.bindPopup(popup_ed2ff329646d5e08ed3362dd1d7775b9)
+        ;
+
+        
+    
+    
+            var circle_marker_b6f736713f16d853504cc79537a21531 = L.circleMarker(
+                [36.1393116259632, -115.190174927841],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_fa79336a05e66e60678832c69b35872a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_abc2321a1398316b553b9606b2af7c87 = $(`<div id="html_abc2321a1398316b553b9606b2af7c87" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1737331680000<br>Location: 2900 S VALLEY VIEW BLVD<br>Beat: P2</div>`)[0];
+                popup_fa79336a05e66e60678832c69b35872a.setContent(html_abc2321a1398316b553b9606b2af7c87);
+            
+        
+
+        circle_marker_b6f736713f16d853504cc79537a21531.bindPopup(popup_fa79336a05e66e60678832c69b35872a)
+        ;
+
+        
+    
+    
+            var circle_marker_62ea1b33fa9384595e62f7a08f44f7b1 = L.circleMarker(
+                [36.028320798681, -115.21379314547],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_36d1502ab741c81fd87c9d164f6d9bee = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4e826737c6095e763857414fdd18689b = $(`<div id="html_4e826737c6095e763857414fdd18689b" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1738808340000<br>Location: 5300 CAPROCK CANYON AVE<br>Beat: O4</div>`)[0];
+                popup_36d1502ab741c81fd87c9d164f6d9bee.setContent(html_4e826737c6095e763857414fdd18689b);
+            
+        
+
+        circle_marker_62ea1b33fa9384595e62f7a08f44f7b1.bindPopup(popup_36d1502ab741c81fd87c9d164f6d9bee)
+        ;
+
+        
+    
+    
+            var circle_marker_69821b4507e429c3116ac42472e8055b = L.circleMarker(
+                [36.1024268321929, -115.123127206205],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_83279bb33220ec13604883bf90593e52 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3d26603b96278f9f9704fd5c337f0e62 = $(`<div id="html_3d26603b96278f9f9704fd5c337f0e62" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1738963248063<br>Location: 2200 RENAISSANCE DR<br>Beat: N3</div>`)[0];
+                popup_83279bb33220ec13604883bf90593e52.setContent(html_3d26603b96278f9f9704fd5c337f0e62);
+            
+        
+
+        circle_marker_69821b4507e429c3116ac42472e8055b.bindPopup(popup_83279bb33220ec13604883bf90593e52)
+        ;
+
+        
+    
+    
+            var circle_marker_c761665711ebd2cf3036b827e593294e = L.circleMarker(
+                [36.018882854639, -115.271826443041],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_24d48cf09332bc5a79546f63dbd78938 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_928223c59bbd293a63f616fdf4192c0d = $(`<div id="html_928223c59bbd293a63f616fdf4192c0d" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1739103180000<br>Location: 9300 ASPEN SHADOW ST<br>Beat: O4</div>`)[0];
+                popup_24d48cf09332bc5a79546f63dbd78938.setContent(html_928223c59bbd293a63f616fdf4192c0d);
+            
+        
+
+        circle_marker_c761665711ebd2cf3036b827e593294e.bindPopup(popup_24d48cf09332bc5a79546f63dbd78938)
+        ;
+
+        
+    
+    
+            var circle_marker_2c0b94c3efc108db04fbca5402dbb1e2 = L.circleMarker(
+                [36.1232837140224, -115.223951247661],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_d3d7a82c2dc3c964cf22ebdeb32e3c1e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c0f3487b8931f4687c919689e1531855 = $(`<div id="html_c0f3487b8931f4687c919689e1531855" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1739167320000<br>Location: 3600 S JONES BLVD<br>Beat: P2</div>`)[0];
+                popup_d3d7a82c2dc3c964cf22ebdeb32e3c1e.setContent(html_c0f3487b8931f4687c919689e1531855);
+            
+        
+
+        circle_marker_2c0b94c3efc108db04fbca5402dbb1e2.bindPopup(popup_d3d7a82c2dc3c964cf22ebdeb32e3c1e)
+        ;
+
+        
+    
+    
+            var circle_marker_16c8f714be7b3f078652292f43c06181 = L.circleMarker(
+                [36.125915164173, -115.139993402036],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_1afa4e84322479e91aeb0e5bbfd831c5 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d74aac6472b162892196ef6a21a21967 = $(`<div id="html_d74aac6472b162892196ef6a21a21967" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1739424600000<br>Location: 1000 DUMONT BLVD<br>Beat: N2</div>`)[0];
+                popup_1afa4e84322479e91aeb0e5bbfd831c5.setContent(html_d74aac6472b162892196ef6a21a21967);
+            
+        
+
+        circle_marker_16c8f714be7b3f078652292f43c06181.bindPopup(popup_1afa4e84322479e91aeb0e5bbfd831c5)
+        ;
+
+        
+    
+    
+            var circle_marker_4dac8ba25fc49f5a89ba1ed1de3b3fde = L.circleMarker(
+                [36.1619972899418, -115.136641021522],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_3d461ec4eba5e397376f1fd063939525 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c06f8cecaa98bc4bafcfeda03256ce69 = $(`<div id="html_c06f8cecaa98bc4bafcfeda03256ce69" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1739615640000<br>Location: 400 S 11TH ST<br>Beat: A3</div>`)[0];
+                popup_3d461ec4eba5e397376f1fd063939525.setContent(html_c06f8cecaa98bc4bafcfeda03256ce69);
+            
+        
+
+        circle_marker_4dac8ba25fc49f5a89ba1ed1de3b3fde.bindPopup(popup_3d461ec4eba5e397376f1fd063939525)
+        ;
+
+        
+    
+    
+            var circle_marker_16fdb0a269ff3418d1f028414420241b = L.circleMarker(
+                [36.1475844776229, -115.176372445333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_173d8127e17c3653c50bd22565ddafff = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_19c6154cd6c219cc82f699a033117ccf = $(`<div id="html_19c6154cd6c219cc82f699a033117ccf" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1739749920000<br>Location: 2100 NACO CT<br>Beat: U3</div>`)[0];
+                popup_173d8127e17c3653c50bd22565ddafff.setContent(html_19c6154cd6c219cc82f699a033117ccf);
+            
+        
+
+        circle_marker_16fdb0a269ff3418d1f028414420241b.bindPopup(popup_173d8127e17c3653c50bd22565ddafff)
+        ;
+
+        
+    
+    
+            var circle_marker_af8a99a23f25451ef6309398aeb5aa41 = L.circleMarker(
+                [36.2367573363523, -115.070471422674],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_c590c1723e4bc28cfb01ec0374b62bc4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7bea2202425338cab702c55ba44f40d1 = $(`<div id="html_7bea2202425338cab702c55ba44f40d1" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1739766183347<br>Location: 4700 CORSAIRE AVE<br>Beat: F4</div>`)[0];
+                popup_c590c1723e4bc28cfb01ec0374b62bc4.setContent(html_7bea2202425338cab702c55ba44f40d1);
+            
+        
+
+        circle_marker_af8a99a23f25451ef6309398aeb5aa41.bindPopup(popup_c590c1723e4bc28cfb01ec0374b62bc4)
+        ;
+
+        
+    
+    
+            var circle_marker_c8bc854f062a3905010909e6e93be089 = L.circleMarker(
+                [36.2856055134886, -115.288565398619],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_a0d794c7dbd5d808b99c0efe04cedd4c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_231c7ae378dbfc283de81e0e73bd03dc = $(`<div id="html_231c7ae378dbfc283de81e0e73bd03dc" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1739788920000<br>Location: 6800 N DURANGO DR<br>Beat: X5</div>`)[0];
+                popup_a0d794c7dbd5d808b99c0efe04cedd4c.setContent(html_231c7ae378dbfc283de81e0e73bd03dc);
+            
+        
+
+        circle_marker_c8bc854f062a3905010909e6e93be089.bindPopup(popup_a0d794c7dbd5d808b99c0efe04cedd4c)
+        ;
+
+        
+    
+    
+            var circle_marker_6b2005baf6f92b943901eeb4b8241d77 = L.circleMarker(
+                [36.1443202312391, -115.191517466414],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_709dfc264737a2f861b9b06d1c5ed893 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c7b90cbeab7e453b5160c365e8d86d9a = $(`<div id="html_c7b90cbeab7e453b5160c365e8d86d9a" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1740046156247<br>Location: S VALLEY VIEW BLVD & W SAHARA AVE<br>Beat: P2</div>`)[0];
+                popup_709dfc264737a2f861b9b06d1c5ed893.setContent(html_c7b90cbeab7e453b5160c365e8d86d9a);
+            
+        
+
+        circle_marker_6b2005baf6f92b943901eeb4b8241d77.bindPopup(popup_709dfc264737a2f861b9b06d1c5ed893)
+        ;
+
+        
+    
+    
+            var circle_marker_9bd1e036c90f22124b857db3b7de8b93 = L.circleMarker(
+                [36.1766432182525, -115.115611890452],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_71fa5d8e8026fea9d41f963866988a8f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9b13b4024f5453a7f9ca1175969051c0 = $(`<div id="html_9b13b4024f5453a7f9ca1175969051c0" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1740439664420<br>Location: 2500 TULIP LN<br>Beat: B3</div>`)[0];
+                popup_71fa5d8e8026fea9d41f963866988a8f.setContent(html_9b13b4024f5453a7f9ca1175969051c0);
+            
+        
+
+        circle_marker_9bd1e036c90f22124b857db3b7de8b93.bindPopup(popup_71fa5d8e8026fea9d41f963866988a8f)
+        ;
+
+        
+    
+    
+            var circle_marker_8583b02ac37ad4546f120babaf9abd6d = L.circleMarker(
+                [36.1588143630246, -115.222222722813],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_f9e122e0d0c146cc38891b8517df292b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2f1262f0c6c96f8fb13e726ea21a5ff1 = $(`<div id="html_2f1262f0c6c96f8fb13e726ea21a5ff1" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1741691660000<br>Location: 6000 W CHARLESTON BLVD<br>Beat: U2</div>`)[0];
+                popup_f9e122e0d0c146cc38891b8517df292b.setContent(html_2f1262f0c6c96f8fb13e726ea21a5ff1);
+            
+        
+
+        circle_marker_8583b02ac37ad4546f120babaf9abd6d.bindPopup(popup_f9e122e0d0c146cc38891b8517df292b)
+        ;
+
+        
+    
+    
+            var circle_marker_ccde7551975bf3a6f98d4188302c654e = L.circleMarker(
+                [36.1766019977598, -115.125479995808],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_75131d1162391b9ca46f12b8c6df5b93 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_612212573d601a8e8c6173dd3d1cd465 = $(`<div id="html_612212573d601a8e8c6173dd3d1cd465" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1742084441757<br>Location: 700 N BRUCE ST<br>Beat: B1</div>`)[0];
+                popup_75131d1162391b9ca46f12b8c6df5b93.setContent(html_612212573d601a8e8c6173dd3d1cd465);
+            
+        
+
+        circle_marker_ccde7551975bf3a6f98d4188302c654e.bindPopup(popup_75131d1162391b9ca46f12b8c6df5b93)
+        ;
+
+        
+    
+    
+            var circle_marker_2adc0314b5008fd2329fa510deac7bf4 = L.circleMarker(
+                [36.3022216103976, -115.282285925236],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_9f86a8c46a21a12bcb1edae51df443ed = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ec12dfc1c247c40cfc47f7f9f9c5d9e2 = $(`<div id="html_ec12dfc1c247c40cfc47f7f9f9c5d9e2" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1742183520000<br>Location: 7700 N DURANGO DR<br>Beat: X6</div>`)[0];
+                popup_9f86a8c46a21a12bcb1edae51df443ed.setContent(html_ec12dfc1c247c40cfc47f7f9f9c5d9e2);
+            
+        
+
+        circle_marker_2adc0314b5008fd2329fa510deac7bf4.bindPopup(popup_9f86a8c46a21a12bcb1edae51df443ed)
+        ;
+
+        
+    
+    
+            var circle_marker_2548e713723996c44321e6d1bc31413e = L.circleMarker(
+                [36.1453429609411, -115.154355500003],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_53953cfc702a4855b2af90e3d8d6a680 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d0d20685e0a6a4a32308d57f1146bcad = $(`<div id="html_d0d20685e0a6a4a32308d57f1146bcad" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1742656281220<br>Location: 2100 PARADISE RD<br>Beat: C3</div>`)[0];
+                popup_53953cfc702a4855b2af90e3d8d6a680.setContent(html_d0d20685e0a6a4a32308d57f1146bcad);
+            
+        
+
+        circle_marker_2548e713723996c44321e6d1bc31413e.bindPopup(popup_53953cfc702a4855b2af90e3d8d6a680)
+        ;
+
+        
+    
+    
+            var circle_marker_610c612e0e7ea171028677bc14c0a68b = L.circleMarker(
+                [36.1486661998111, -115.149754738479],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_592262bd0082568f1c9769cd008b49da = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_29de743c5284fc288763995a840a19fa = $(`<div id="html_29de743c5284fc288763995a840a19fa" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1742826780000<br>Location: 1900 REXFORD DR<br>Beat: C3</div>`)[0];
+                popup_592262bd0082568f1c9769cd008b49da.setContent(html_29de743c5284fc288763995a840a19fa);
+            
+        
+
+        circle_marker_610c612e0e7ea171028677bc14c0a68b.bindPopup(popup_592262bd0082568f1c9769cd008b49da)
+        ;
+
+        
+    
+    
+            var circle_marker_47b5e2ec36be577e4c02079d566c52e9 = L.circleMarker(
+                [36.1111477604307, -115.121442584597],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_2f2ca3a00df0c041e8c879e83743a041 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_21405d8b6f929364a2851134da97ab62 = $(`<div id="html_21405d8b6f929364a2851134da97ab62" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1742985362000<br>Location: 4200 CHANNEL 10 DR<br>Beat: N3</div>`)[0];
+                popup_2f2ca3a00df0c041e8c879e83743a041.setContent(html_21405d8b6f929364a2851134da97ab62);
+            
+        
+
+        circle_marker_47b5e2ec36be577e4c02079d566c52e9.bindPopup(popup_2f2ca3a00df0c041e8c879e83743a041)
+        ;
+
+        
+    
+    
+            var circle_marker_7aeda08c63a7bc496497792adea5c251 = L.circleMarker(
+                [36.1500006065423, -115.159193390158],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_567c5ab1128528c387447ff5b1cc9df6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_dc4f39968a01e6707a1b5c6f0fa0a5ef = $(`<div id="html_dc4f39968a01e6707a1b5c6f0fa0a5ef" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1743307524473<br>Location: 200 W CHICAGO AVE<br>Beat: C2</div>`)[0];
+                popup_567c5ab1128528c387447ff5b1cc9df6.setContent(html_dc4f39968a01e6707a1b5c6f0fa0a5ef);
+            
+        
+
+        circle_marker_7aeda08c63a7bc496497792adea5c251.bindPopup(popup_567c5ab1128528c387447ff5b1cc9df6)
+        ;
+
+        
+    
+    
+            var circle_marker_c1c189f1046fcfd2984c44f455e5ee34 = L.circleMarker(
+                [36.2149333829889, -115.094497540208],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_028e62d61fac7f1ad5c9b88239fce4a8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a5664879cacd23c189afe7d7c5d4b654 = $(`<div id="html_a5664879cacd23c189afe7d7c5d4b654" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1744260180000<br>Location: 3200 N LAS VEGAS BLVD<br>Beat: F3</div>`)[0];
+                popup_028e62d61fac7f1ad5c9b88239fce4a8.setContent(html_a5664879cacd23c189afe7d7c5d4b654);
+            
+        
+
+        circle_marker_c1c189f1046fcfd2984c44f455e5ee34.bindPopup(popup_028e62d61fac7f1ad5c9b88239fce4a8)
+        ;
+
+        
+    
+    
+            var circle_marker_d927919da0f9a843bd08abd719238ddd = L.circleMarker(
+                [36.2576201988955, -115.269749055567],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_85a8ebcd7d3b66bd7421d577a4f2acb3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b2d67a71059de72a2342a582f78eabf0 = $(`<div id="html_b2d67a71059de72a2342a582f78eabf0" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1744433858420<br>Location: 7900 PAINTED SUNSET DR<br>Beat: X3</div>`)[0];
+                popup_85a8ebcd7d3b66bd7421d577a4f2acb3.setContent(html_b2d67a71059de72a2342a582f78eabf0);
+            
+        
+
+        circle_marker_d927919da0f9a843bd08abd719238ddd.bindPopup(popup_85a8ebcd7d3b66bd7421d577a4f2acb3)
+        ;
+
+        
+    
+    
+            var circle_marker_74f30dc9e63c3d000fb1816d79c341bd = L.circleMarker(
+                [36.1884597500968, -115.090033069242],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_f3263bd411a64b32178f2cec02ea3539 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e11b08c84e376a92f04c808042d9d0a4 = $(`<div id="html_e11b08c84e376a92f04c808042d9d0a4" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1744533064217<br>Location: 3900 E OWENS AVE<br>Beat: F1</div>`)[0];
+                popup_f3263bd411a64b32178f2cec02ea3539.setContent(html_e11b08c84e376a92f04c808042d9d0a4);
+            
+        
+
+        circle_marker_74f30dc9e63c3d000fb1816d79c341bd.bindPopup(popup_f3263bd411a64b32178f2cec02ea3539)
+        ;
+
+        
+    
+    
+            var circle_marker_949f45eb7e2751352e7c66144a8e8323 = L.circleMarker(
+                [36.1860255297751, -115.143172873036],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_ca33756b6763feac420a49ec6c322049 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_889a34615c65eca4e98163985d52a8b1 = $(`<div id="html_889a34615c65eca4e98163985d52a8b1" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1744555399097<br>Location: 1500 A ST<br>Beat: B1</div>`)[0];
+                popup_ca33756b6763feac420a49ec6c322049.setContent(html_889a34615c65eca4e98163985d52a8b1);
+            
+        
+
+        circle_marker_949f45eb7e2751352e7c66144a8e8323.bindPopup(popup_ca33756b6763feac420a49ec6c322049)
+        ;
+
+        
+    
+    
+            var circle_marker_af2c8bd5fde199af210095fbfb794d86 = L.circleMarker(
+                [36.1156125767734, -115.283559173538],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_36bb6f5e02b8c8a8b3394a2cdac0829a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_bf3bdfc02ccb18ee22940c91ccd2ee32 = $(`<div id="html_bf3bdfc02ccb18ee22940c91ccd2ee32" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1745117393267<br>Location: W FLAMINGO RD & S RILEY ST<br>Beat: R2</div>`)[0];
+                popup_36bb6f5e02b8c8a8b3394a2cdac0829a.setContent(html_bf3bdfc02ccb18ee22940c91ccd2ee32);
+            
+        
+
+        circle_marker_af2c8bd5fde199af210095fbfb794d86.bindPopup(popup_36bb6f5e02b8c8a8b3394a2cdac0829a)
+        ;
+
+        
+    
+    
+            var circle_marker_b19d97ee273df38defe11f44d40010ca = L.circleMarker(
+                [35.9957947278906, -115.149171180628],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_8925d8912e6d5e7f88c991322229278c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d9ec26fbd784bdd4dfb88b3fb7772c0d = $(`<div id="html_d9ec26fbd784bdd4dfb88b3fb7772c0d" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1745285263030<br>Location: 10700 WILDHURST ST<br>Beat: S4</div>`)[0];
+                popup_8925d8912e6d5e7f88c991322229278c.setContent(html_d9ec26fbd784bdd4dfb88b3fb7772c0d);
+            
+        
+
+        circle_marker_b19d97ee273df38defe11f44d40010ca.bindPopup(popup_8925d8912e6d5e7f88c991322229278c)
+        ;
+
+        
+    
+    
+            var circle_marker_13c8717f0686ef5f1da3369825b88b8a = L.circleMarker(
+                [36.0686690493629, -115.164547748776],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_9a361fce77d9ac3b1e09f871eceaea46 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_98d0d50219241ca6ab8df4afc7a03c2e = $(`<div id="html_98d0d50219241ca6ab8df4afc7a03c2e" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1745639640000<br>Location: 6600 GILESPIE ST<br>Beat: L5</div>`)[0];
+                popup_9a361fce77d9ac3b1e09f871eceaea46.setContent(html_98d0d50219241ca6ab8df4afc7a03c2e);
+            
+        
+
+        circle_marker_13c8717f0686ef5f1da3369825b88b8a.bindPopup(popup_9a361fce77d9ac3b1e09f871eceaea46)
+        ;
+
+        
+    
+    
+            var circle_marker_af5564900e68a1f568b24a024eaf8e77 = L.circleMarker(
+                [36.301444333716, -115.294616169272],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_04894e974d2e930818aab2b6d2e33c44 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e7c4b384a22eb3f20689352f47dfd8b2 = $(`<div id="html_e7c4b384a22eb3f20689352f47dfd8b2" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1745835720000<br>Location: 9100 PEARL COTTON AVE<br>Beat: X5</div>`)[0];
+                popup_04894e974d2e930818aab2b6d2e33c44.setContent(html_e7c4b384a22eb3f20689352f47dfd8b2);
+            
+        
+
+        circle_marker_af5564900e68a1f568b24a024eaf8e77.bindPopup(popup_04894e974d2e930818aab2b6d2e33c44)
+        ;
+
+        
+    
+    
+            var circle_marker_565089e89a5aa8625f98ec59002e7b9d = L.circleMarker(
+                [36.1363755178618, -115.161725298694],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_f9e9a20cb9b45a7ec4fc345938ad3d19 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_34a9ac0a69e046483182e15095ee3980 = $(`<div id="html_34a9ac0a69e046483182e15095ee3980" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1745948110000<br>Location: 2800 S LAS VEGAS BLVD<br>Beat: M1</div>`)[0];
+                popup_f9e9a20cb9b45a7ec4fc345938ad3d19.setContent(html_34a9ac0a69e046483182e15095ee3980);
+            
+        
+
+        circle_marker_565089e89a5aa8625f98ec59002e7b9d.bindPopup(popup_f9e9a20cb9b45a7ec4fc345938ad3d19)
+        ;
+
+        
+    
+    
+            var circle_marker_3356dec4ad4479b69a95ee5586cad1f7 = L.circleMarker(
+                [36.1280623887623, -115.132390489703],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_84cdff299bf8d5743ba5d2550773b236 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1ce892aba197ab80ee88f483bb9be220 = $(`<div id="html_1ce892aba197ab80ee88f483bb9be220" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1745954397447<br>Location: 1400 PAWNEE DR<br>Beat: L2</div>`)[0];
+                popup_84cdff299bf8d5743ba5d2550773b236.setContent(html_1ce892aba197ab80ee88f483bb9be220);
+            
+        
+
+        circle_marker_3356dec4ad4479b69a95ee5586cad1f7.bindPopup(popup_84cdff299bf8d5743ba5d2550773b236)
+        ;
+
+        
+    
+    
+            var circle_marker_dd7649e4e62e52364dea5e99d7814f52 = L.circleMarker(
+                [36.1451589003669, -115.29295807337],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_68aafcad9fca3a7083ed5d33f49ebddb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e5490c36e23740a9cbdd744ae7484818 = $(`<div id="html_e5490c36e23740a9cbdd744ae7484818" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1746360815983<br>Location: 2300 BAY HILL DR<br>Beat: V4</div>`)[0];
+                popup_68aafcad9fca3a7083ed5d33f49ebddb.setContent(html_e5490c36e23740a9cbdd744ae7484818);
+            
+        
+
+        circle_marker_dd7649e4e62e52364dea5e99d7814f52.bindPopup(popup_68aafcad9fca3a7083ed5d33f49ebddb)
+        ;
+
+        
+    
+    
+            var circle_marker_b4e638ba8d828cfd029b2108b7ffce13 = L.circleMarker(
+                [36.1296544765259, -115.103631897317],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_535a4a93f455ef7e279b1897298896e6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ae8a43a1d2b6ef6ed04e6c4d79fb3bbb = $(`<div id="html_ae8a43a1d2b6ef6ed04e6c4d79fb3bbb" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1746383040880<br>Location: 3200 E DESERT INN RD<br>Beat: H2</div>`)[0];
+                popup_535a4a93f455ef7e279b1897298896e6.setContent(html_ae8a43a1d2b6ef6ed04e6c4d79fb3bbb);
+            
+        
+
+        circle_marker_b4e638ba8d828cfd029b2108b7ffce13.bindPopup(popup_535a4a93f455ef7e279b1897298896e6)
+        ;
+
+        
+    
+    
+            var circle_marker_5f4fbb035f535d33aea2178cf027605d = L.circleMarker(
+                [36.154282712612, -115.092701541311],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_70704ec8303906cc897e5476663fd43c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_657eb2cbdbe5b9bda65fc0f806c3a4d4 = $(`<div id="html_657eb2cbdbe5b9bda65fc0f806c3a4d4" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1747138471000<br>Location: 1600 S SANDHILL RD<br>Beat: B5</div>`)[0];
+                popup_70704ec8303906cc897e5476663fd43c.setContent(html_657eb2cbdbe5b9bda65fc0f806c3a4d4);
+            
+        
+
+        circle_marker_5f4fbb035f535d33aea2178cf027605d.bindPopup(popup_70704ec8303906cc897e5476663fd43c)
+        ;
+
+        
+    
+    
+            var circle_marker_769430239e0324204b7d5c47268d7a73 = L.circleMarker(
+                [36.1916238168878, -115.241662366224],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_10abe05fd1286bd3aa3f92d49fc21176 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b5f3bae872320440deb5917dc5ae23ee = $(`<div id="html_b5f3bae872320440deb5917dc5ae23ee" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1747427640000<br>Location: 1700 N RAINBOW BLVD<br>Beat: U1</div>`)[0];
+                popup_10abe05fd1286bd3aa3f92d49fc21176.setContent(html_b5f3bae872320440deb5917dc5ae23ee);
+            
+        
+
+        circle_marker_769430239e0324204b7d5c47268d7a73.bindPopup(popup_10abe05fd1286bd3aa3f92d49fc21176)
+        ;
+
+        
+    
+    
+            var circle_marker_e341ccc124bafb9bbe35610536cf36c5 = L.circleMarker(
+                [36.186499138035, -115.135999727173],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_22d76414c1af2913311fa889be74a23c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_287890e56f4e6b987991aaaf09e591b4 = $(`<div id="html_287890e56f4e6b987991aaaf09e591b4" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1747677234603<br>Location: N MAIN ST & FOREMASTER LN<br>Beat: B1</div>`)[0];
+                popup_22d76414c1af2913311fa889be74a23c.setContent(html_287890e56f4e6b987991aaaf09e591b4);
+            
+        
+
+        circle_marker_e341ccc124bafb9bbe35610536cf36c5.bindPopup(popup_22d76414c1af2913311fa889be74a23c)
+        ;
+
+        
+    
+    
+            var circle_marker_55bc319e6f56613114e39061f7b722cf = L.circleMarker(
+                [36.1636690840128, -115.140862851276],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_a541d4d64e7a92328cd72faf1d1785c8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1b998a76243a88b95f4c5a9fd3f3020b = $(`<div id="html_1b998a76243a88b95f4c5a9fd3f3020b" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1747761540000<br>Location: 500 S 7TH ST<br>Beat: A3</div>`)[0];
+                popup_a541d4d64e7a92328cd72faf1d1785c8.setContent(html_1b998a76243a88b95f4c5a9fd3f3020b);
+            
+        
+
+        circle_marker_55bc319e6f56613114e39061f7b722cf.bindPopup(popup_a541d4d64e7a92328cd72faf1d1785c8)
+        ;
+
+        
+    
+    
+            var circle_marker_da2d781cb9612a2a55dd3f0b869cc6a0 = L.circleMarker(
+                [36.159088770924, -115.135732495891],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_5a2c45a874183bafa4041346c9167e93 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_95520f7a1ea349292b622b6e96f70a3f = $(`<div id="html_95520f7a1ea349292b622b6e96f70a3f" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1748044080000<br>Location: 1200 E CHARLESTON BLVD<br>Beat: A5</div>`)[0];
+                popup_5a2c45a874183bafa4041346c9167e93.setContent(html_95520f7a1ea349292b622b6e96f70a3f);
+            
+        
+
+        circle_marker_da2d781cb9612a2a55dd3f0b869cc6a0.bindPopup(popup_5a2c45a874183bafa4041346c9167e93)
+        ;
+
+        
+    
+    
+            var circle_marker_0d8780a584534865fd7326fbde2eb52b = L.circleMarker(
+                [36.2278841760703, -115.292977700158],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_38d1c44fe1be4b9c67d9986652b97a1c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c467cd5e7d39bf8b1f6dd3c0b318710c = $(`<div id="html_c467cd5e7d39bf8b1f6dd3c0b318710c" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1748562395060<br>Location: 3600 N CAMPBELL RD<br>Beat: X1</div>`)[0];
+                popup_38d1c44fe1be4b9c67d9986652b97a1c.setContent(html_c467cd5e7d39bf8b1f6dd3c0b318710c);
+            
+        
+
+        circle_marker_0d8780a584534865fd7326fbde2eb52b.bindPopup(popup_38d1c44fe1be4b9c67d9986652b97a1c)
+        ;
+
+        
+    
+    
+            var circle_marker_288b75c0d4374c63478fab102052043c = L.circleMarker(
+                [36.1989896163109, -115.02137991467],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_59422cbc3b0220a4023f722c58673b51 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e10656cbbffadb2ffafe13954f11c9c3 = $(`<div id="html_e10656cbbffadb2ffafe13954f11c9c3" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1748738405203<br>Location: 6900 DUNSBACH WAY<br>Beat: F2</div>`)[0];
+                popup_59422cbc3b0220a4023f722c58673b51.setContent(html_e10656cbbffadb2ffafe13954f11c9c3);
+            
+        
+
+        circle_marker_288b75c0d4374c63478fab102052043c.bindPopup(popup_59422cbc3b0220a4023f722c58673b51)
+        ;
+
+        
+    
+    
+            var circle_marker_6a11efb9772605aa9e37a2078602165b = L.circleMarker(
+                [36.0661203980414, -115.242103324316],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_9fea126ed770fb50f37ef9c025324ddc = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8b0ae8fd17afabf7c766820cecd11f8d = $(`<div id="html_8b0ae8fd17afabf7c766820cecd11f8d" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1748914295590<br>Location: N CC 200 & S RAINBOW BLVD<br>Beat: P3</div>`)[0];
+                popup_9fea126ed770fb50f37ef9c025324ddc.setContent(html_8b0ae8fd17afabf7c766820cecd11f8d);
+            
+        
+
+        circle_marker_6a11efb9772605aa9e37a2078602165b.bindPopup(popup_9fea126ed770fb50f37ef9c025324ddc)
+        ;
+
+        
+    
+    
+            var circle_marker_2db2618e234a7becafbbff8a683d19ce = L.circleMarker(
+                [36.1124292728579, -115.178388025088],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_f1600ee254d7a96978232573850ddec1 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3b7535dcdb9b211590f52589625c3f52 = $(`<div id="html_3b7535dcdb9b211590f52589625c3f52" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1749447600000<br>Location: 3600 S LAS VEGAS BLVD<br>Beat: M3</div>`)[0];
+                popup_f1600ee254d7a96978232573850ddec1.setContent(html_3b7535dcdb9b211590f52589625c3f52);
+            
+        
+
+        circle_marker_2db2618e234a7becafbbff8a683d19ce.bindPopup(popup_f1600ee254d7a96978232573850ddec1)
+        ;
+
+        
+    
+    
+            var circle_marker_a96ed2287f233f3c2601b7b77bd5a813 = L.circleMarker(
+                [36.1242083411284, -115.071894770349],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_1bed1afdee120b68470c99c1b394f719 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4152962201844bdc696857a3504e56c7 = $(`<div id="html_4152962201844bdc696857a3504e56c7" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1750281360000<br>Location: 3600 INDIOS AVE<br>Beat: H2</div>`)[0];
+                popup_1bed1afdee120b68470c99c1b394f719.setContent(html_4152962201844bdc696857a3504e56c7);
+            
+        
+
+        circle_marker_a96ed2287f233f3c2601b7b77bd5a813.bindPopup(popup_1bed1afdee120b68470c99c1b394f719)
+        ;
+
+        
+    
+    
+            var circle_marker_9fda2183facf230c012de2460eaa5605 = L.circleMarker(
+                [35.8785785819512, -115.229096192627],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_7e59338a66875cdbab5938ad5f48353e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9d544eb757e6d449c6753dd33e715bfe = $(`<div id="html_9d544eb757e6d449c6753dd33e715bfe" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1750515660000<br>Location: 17000 S LAS VEGAS BLVD<br>Beat: 83</div>`)[0];
+                popup_7e59338a66875cdbab5938ad5f48353e.setContent(html_9d544eb757e6d449c6753dd33e715bfe);
+            
+        
+
+        circle_marker_9fda2183facf230c012de2460eaa5605.bindPopup(popup_7e59338a66875cdbab5938ad5f48353e)
+        ;
+
+        
+    
+    
+            var circle_marker_099849fa6ce784e4c4ec678536f59317 = L.circleMarker(
+                [35.9946920137566, -115.188711299566],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_1ed09deb55544f9a9d20435ee49e9248 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_91ed805d2f671d811db72d43031a577b = $(`<div id="html_91ed805d2f671d811db72d43031a577b" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1750572206383<br>Location: 10700 AVENZANO ST<br>Beat: O5</div>`)[0];
+                popup_1ed09deb55544f9a9d20435ee49e9248.setContent(html_91ed805d2f671d811db72d43031a577b);
+            
+        
+
+        circle_marker_099849fa6ce784e4c4ec678536f59317.bindPopup(popup_1ed09deb55544f9a9d20435ee49e9248)
+        ;
+
+        
+    
+    
+            var circle_marker_86cbe3ffcf7254261a8a71a4245b81d6 = L.circleMarker(
+                [36.142392991189, -115.048373503664],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_8460ef3af0424f77f4bb0f60d01f9693 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5501ec2dc9b66b828473e1292a9a9458 = $(`<div id="html_5501ec2dc9b66b828473e1292a9a9458" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1750615596877<br>Location: 5700 COLERIDGE WAY<br>Beat: J2</div>`)[0];
+                popup_8460ef3af0424f77f4bb0f60d01f9693.setContent(html_5501ec2dc9b66b828473e1292a9a9458);
+            
+        
+
+        circle_marker_86cbe3ffcf7254261a8a71a4245b81d6.bindPopup(popup_8460ef3af0424f77f4bb0f60d01f9693)
+        ;
+
+        
+    
+    
+            var circle_marker_95af01302472efb9a0ecc08c665ea045 = L.circleMarker(
+                [36.1588290719148, -115.296073280251],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_b87d7ae13497001c170f1331a3a55786 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e0c4d93474e1fd486392a8a64ab5c0ed = $(`<div id="html_e0c4d93474e1fd486392a8a64ab5c0ed" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1750659780000<br>Location: 9200 W CHARLESTON BLVD<br>Beat: V3</div>`)[0];
+                popup_b87d7ae13497001c170f1331a3a55786.setContent(html_e0c4d93474e1fd486392a8a64ab5c0ed);
+            
+        
+
+        circle_marker_95af01302472efb9a0ecc08c665ea045.bindPopup(popup_b87d7ae13497001c170f1331a3a55786)
+        ;
+
+        
+    
+    
+            var circle_marker_50947602017226a521edf725cbbd32c8 = L.circleMarker(
+                [36.1231933353031, -115.149555613326],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_941e7aaaeccb5cd81818e051bb4530dd = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_beb422344d97836c64c3c0459166d427 = $(`<div id="html_beb422344d97836c64c3c0459166d427" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1750845180000<br>Location: 500 S ROYAL CREST CIR<br>Beat: N2</div>`)[0];
+                popup_941e7aaaeccb5cd81818e051bb4530dd.setContent(html_beb422344d97836c64c3c0459166d427);
+            
+        
+
+        circle_marker_50947602017226a521edf725cbbd32c8.bindPopup(popup_941e7aaaeccb5cd81818e051bb4530dd)
+        ;
+
+        
+    
+    
+            var circle_marker_a4e45bd41e1eafad47f49a9b239e1218 = L.circleMarker(
+                [36.0788594457615, -115.269200424109],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_4837db79890b3dd8aa07b1dbb39a952e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5df1833e6e8a808953bfaba371f6c61e = $(`<div id="html_5df1833e6e8a808953bfaba371f6c61e" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1752046680000<br>Location: 6000 COJA ST<br>Beat: P3</div>`)[0];
+                popup_4837db79890b3dd8aa07b1dbb39a952e.setContent(html_5df1833e6e8a808953bfaba371f6c61e);
+            
+        
+
+        circle_marker_a4e45bd41e1eafad47f49a9b239e1218.bindPopup(popup_4837db79890b3dd8aa07b1dbb39a952e)
+        ;
+
+        
+    
+    
+            var circle_marker_8e46e037bb32c8cb196b9f75a657fea1 = L.circleMarker(
+                [36.1557957304303, -115.116040197396],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_9f7084ef74ce0eb30399951ec4712621 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e86f14b10279fef61ac0dcde6f10a9cb = $(`<div id="html_e86f14b10279fef61ac0dcde6f10a9cb" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1752120170790<br>Location: 2300 OLIVE ST<br>Beat: C5</div>`)[0];
+                popup_9f7084ef74ce0eb30399951ec4712621.setContent(html_e86f14b10279fef61ac0dcde6f10a9cb);
+            
+        
+
+        circle_marker_8e46e037bb32c8cb196b9f75a657fea1.bindPopup(popup_9f7084ef74ce0eb30399951ec4712621)
+        ;
+
+        
+    
+    
+            var circle_marker_22818fe1a687ff84744bd7a5f7fc81b8 = L.circleMarker(
+                [36.1988439289514, -115.250028335212],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_c27be64fe206165fe5fe54e4fc538070 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e381e42eb2a86838942bf5214a45a760 = $(`<div id="html_e381e42eb2a86838942bf5214a45a760" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1752552660000<br>Location: 2100 N TENAYA WAY<br>Beat: X1</div>`)[0];
+                popup_c27be64fe206165fe5fe54e4fc538070.setContent(html_e381e42eb2a86838942bf5214a45a760);
+            
+        
+
+        circle_marker_22818fe1a687ff84744bd7a5f7fc81b8.bindPopup(popup_c27be64fe206165fe5fe54e4fc538070)
+        ;
+
+        
+    
+    
+            var circle_marker_e4bc202f7b1ec9b03700c97b562c4473 = L.circleMarker(
+                [36.1167276455542, -115.07281022755],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_b7fd5571f799658bf412e50a73359342 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_18ec2e054e6963aa67a434486fb022c9 = $(`<div id="html_18ec2e054e6963aa67a434486fb022c9" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1752563100000<br>Location: 3900 MOUNTAIN VISTA ST<br>Beat: H2</div>`)[0];
+                popup_b7fd5571f799658bf412e50a73359342.setContent(html_18ec2e054e6963aa67a434486fb022c9);
+            
+        
+
+        circle_marker_e4bc202f7b1ec9b03700c97b562c4473.bindPopup(popup_b7fd5571f799658bf412e50a73359342)
+        ;
+
+        
+    
+    
+            var circle_marker_d85908afb6b773f8dda27785bd91a72a = L.circleMarker(
+                [36.1595512384145, -115.255180386013],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_65165770eb5a4f19ea30cefd48e82b78 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9c187fcabe17069ef3ae4ca4d876a1dc = $(`<div id="html_9c187fcabe17069ef3ae4ca4d876a1dc" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1752683377483<br>Location: 1000 PALMHURST DR<br>Beat: V4</div>`)[0];
+                popup_65165770eb5a4f19ea30cefd48e82b78.setContent(html_9c187fcabe17069ef3ae4ca4d876a1dc);
+            
+        
+
+        circle_marker_d85908afb6b773f8dda27785bd91a72a.bindPopup(popup_65165770eb5a4f19ea30cefd48e82b78)
+        ;
+
+        
+    
+    
+            var circle_marker_3a3f0a91e338e383601d4e932e1a9e6a = L.circleMarker(
+                [36.144463764001, -115.030240749802],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_f16f0b283cc0d562c827e526026fa1a5 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2094733beb18563350f3ce0365304407 = $(`<div id="html_2094733beb18563350f3ce0365304407" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1752701483080<br>Location: 6500 MARCO VISTA AVE<br>Beat: J2</div>`)[0];
+                popup_f16f0b283cc0d562c827e526026fa1a5.setContent(html_2094733beb18563350f3ce0365304407);
+            
+        
+
+        circle_marker_3a3f0a91e338e383601d4e932e1a9e6a.bindPopup(popup_f16f0b283cc0d562c827e526026fa1a5)
+        ;
+
+        
+    
+    
+            var circle_marker_9746d70b29368f2ff4c242ede17513a1 = L.circleMarker(
+                [36.0840859416153, -115.029862935632],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_0ed42722f4aa64a07e3949abcc5034dc = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_32c9161c48242af98a8c3e65699fd89b = $(`<div id="html_32c9161c48242af98a8c3e65699fd89b" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1752996660000<br>Location: 6500 BOULDER HWY<br>Beat: J4</div>`)[0];
+                popup_0ed42722f4aa64a07e3949abcc5034dc.setContent(html_32c9161c48242af98a8c3e65699fd89b);
+            
+        
+
+        circle_marker_9746d70b29368f2ff4c242ede17513a1.bindPopup(popup_0ed42722f4aa64a07e3949abcc5034dc)
+        ;
+
+        
+    
+    
+            var circle_marker_72e4fffe302cbb3b318da25494312656 = L.circleMarker(
+                [36.0297803981015, -115.262579248838],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_d20ca8c3258122242132ef1650ee782c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_07fca576e4345333062788c4d4e80caa = $(`<div id="html_07fca576e4345333062788c4d4e80caa" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1753662468000<br>Location: 7800 W FORD AVE<br>Beat: O2</div>`)[0];
+                popup_d20ca8c3258122242132ef1650ee782c.setContent(html_07fca576e4345333062788c4d4e80caa);
+            
+        
+
+        circle_marker_72e4fffe302cbb3b318da25494312656.bindPopup(popup_d20ca8c3258122242132ef1650ee782c)
+        ;
+
+        
+    
+    
+            var circle_marker_d940f1feb87e7f17888faa23fd8b4acf = L.circleMarker(
+                [36.211261543996, -115.208499533355],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_68b1eb240ed78f0eb1f69a9b611088b9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ea027f4011cd77e41e4de79be1b0db67 = $(`<div id="html_ea027f4011cd77e41e4de79be1b0db67" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1753940113277<br>Location: 2800 N RANCHO DR<br>Beat: X2</div>`)[0];
+                popup_68b1eb240ed78f0eb1f69a9b611088b9.setContent(html_ea027f4011cd77e41e4de79be1b0db67);
+            
+        
+
+        circle_marker_d940f1feb87e7f17888faa23fd8b4acf.bindPopup(popup_68b1eb240ed78f0eb1f69a9b611088b9)
+        ;
+
+        
+    
+    
+            var circle_marker_d8699eaa92f67b358e69890d6a3040d3 = L.circleMarker(
+                [36.2624225597147, -115.282185721395],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_f2f4e0ab5a98be8a0e7ed94143a214f7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_855c6ed4d4986e2febe95673e8fd5172 = $(`<div id="html_855c6ed4d4986e2febe95673e8fd5172" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1754456797000<br>Location: 5600 N BONITA VISTA ST<br>Beat: X3</div>`)[0];
+                popup_f2f4e0ab5a98be8a0e7ed94143a214f7.setContent(html_855c6ed4d4986e2febe95673e8fd5172);
+            
+        
+
+        circle_marker_d8699eaa92f67b358e69890d6a3040d3.bindPopup(popup_f2f4e0ab5a98be8a0e7ed94143a214f7)
+        ;
+
+        
+    
+    
+            var circle_marker_c6f2bd62e6784469b89f5b0c3674c1ae = L.circleMarker(
+                [36.1444099916018, -115.181354598501],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_46121e2af43151c4f505322ab41de40c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_01355adde5d1f9e09b050e43ac916b93 = $(`<div id="html_01355adde5d1f9e09b050e43ac916b93" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1754470511153<br>Location: RICHFIELD BLVD & W SAHARA AVE<br>Beat: P2</div>`)[0];
+                popup_46121e2af43151c4f505322ab41de40c.setContent(html_01355adde5d1f9e09b050e43ac916b93);
+            
+        
+
+        circle_marker_c6f2bd62e6784469b89f5b0c3674c1ae.bindPopup(popup_46121e2af43151c4f505322ab41de40c)
+        ;
+
+        
+    
+    
+            var circle_marker_80a0c0c221f328243eece482389ac623 = L.circleMarker(
+                [36.0994086558644, -115.060099545364],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_dfb661bdb4097a33104efa6e68766a9e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1e26402577db6cc403f610d6e0733d45 = $(`<div id="html_1e26402577db6cc403f610d6e0733d45" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1755178864297<br>Location: 5100 E TROPICANA AVE<br>Beat: J4</div>`)[0];
+                popup_dfb661bdb4097a33104efa6e68766a9e.setContent(html_1e26402577db6cc403f610d6e0733d45);
+            
+        
+
+        circle_marker_80a0c0c221f328243eece482389ac623.bindPopup(popup_dfb661bdb4097a33104efa6e68766a9e)
+        ;
+
+        
+    
+    
+            var circle_marker_51f6320888f9b878d8054e199863f8d4 = L.circleMarker(
+                [36.0912121191934, -115.262220848606],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_fbc1349aac8095f774c18e8c784fbafa = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ef1ab5a1783f6fc9d0f9a6368e8f45c2 = $(`<div id="html_ef1ab5a1783f6fc9d0f9a6368e8f45c2" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1755497700000<br>Location: 5300 CHAMPION RUN ST<br>Beat: P3</div>`)[0];
+                popup_fbc1349aac8095f774c18e8c784fbafa.setContent(html_ef1ab5a1783f6fc9d0f9a6368e8f45c2);
+            
+        
+
+        circle_marker_51f6320888f9b878d8054e199863f8d4.bindPopup(popup_fbc1349aac8095f774c18e8c784fbafa)
+        ;
+
+        
+    
+    
+            var circle_marker_576a410b7516347e1224cd1baa10d109 = L.circleMarker(
+                [36.1181985731917, -115.132925565065],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_ce5f170135f067be18fced8c307be133 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_74e35314c5a07b8f2f5ccff3e21914a8 = $(`<div id="html_74e35314c5a07b8f2f5ccff3e21914a8" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1755924804687<br>Location: ALGONQUIN DR & E VIKING RD<br>Beat: L2</div>`)[0];
+                popup_ce5f170135f067be18fced8c307be133.setContent(html_74e35314c5a07b8f2f5ccff3e21914a8);
+            
+        
+
+        circle_marker_576a410b7516347e1224cd1baa10d109.bindPopup(popup_ce5f170135f067be18fced8c307be133)
+        ;
+
+        
+    
+    
+            var circle_marker_0ad4f8fc9001d201ce19f131e6d1cdec = L.circleMarker(
+                [36.1656830260018, -115.082760374885],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_a04deb019d9f176eebb5b6b11d706302 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7713c4d96add3e380fc307c4533ee31b = $(`<div id="html_7713c4d96add3e380fc307c4533ee31b" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1755934740000<br>Location: 4300 STEWART AVE<br>Beat: G1</div>`)[0];
+                popup_a04deb019d9f176eebb5b6b11d706302.setContent(html_7713c4d96add3e380fc307c4533ee31b);
+            
+        
+
+        circle_marker_0ad4f8fc9001d201ce19f131e6d1cdec.bindPopup(popup_a04deb019d9f176eebb5b6b11d706302)
+        ;
+
+        
+    
+    
+            var circle_marker_7ff956b5f1c477ed91e2a9cbf52b1566 = L.circleMarker(
+                [36.182392149526, -115.213041932366],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_32689884052c59a54a88d3813f953f40 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2e6ed08eb4df694f254304c0fc3013b6 = $(`<div id="html_2e6ed08eb4df694f254304c0fc3013b6" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1755949620000<br>Location: 1000 NASSAU DR<br>Beat: U1</div>`)[0];
+                popup_32689884052c59a54a88d3813f953f40.setContent(html_2e6ed08eb4df694f254304c0fc3013b6);
+            
+        
+
+        circle_marker_7ff956b5f1c477ed91e2a9cbf52b1566.bindPopup(popup_32689884052c59a54a88d3813f953f40)
+        ;
+
+        
+    
+    
+            var circle_marker_75bdb36908b668966b649c9756f6547f = L.circleMarker(
+                [36.2185626393669, -115.062727438057],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_62461042ce335d703ea27b2ddda4e4fe = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5982aa75f6cb9999a4c0a4c300b06a46 = $(`<div id="html_5982aa75f6cb9999a4c0a4c300b06a46" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1756688610817<br>Location: 3100 N NELLIS BLVD<br>Beat: F3</div>`)[0];
+                popup_62461042ce335d703ea27b2ddda4e4fe.setContent(html_5982aa75f6cb9999a4c0a4c300b06a46);
+            
+        
+
+        circle_marker_75bdb36908b668966b649c9756f6547f.bindPopup(popup_62461042ce335d703ea27b2ddda4e4fe)
+        ;
+
+        
+    
+    
+            var circle_marker_58ff1dd1c5e2595a792fee1f5ed71ae8 = L.circleMarker(
+                [36.1075747410825, -115.152469007488],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_54187214fc70759585af7b1f360fa712 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_04bbfd483f7904c8ded890a7eba24ab5 = $(`<div id="html_04bbfd483f7904c8ded890a7eba24ab5" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1757143625533<br>Location: 4500 PARADISE RD<br>Beat: M3</div>`)[0];
+                popup_54187214fc70759585af7b1f360fa712.setContent(html_04bbfd483f7904c8ded890a7eba24ab5);
+            
+        
+
+        circle_marker_58ff1dd1c5e2595a792fee1f5ed71ae8.bindPopup(popup_54187214fc70759585af7b1f360fa712)
+        ;
+
+        
+    
+    
+            var circle_marker_aea3184a77abbd152a3b93d386fecb07 = L.circleMarker(
+                [36.1558966697313, -115.115713291574],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_6161941d539a5437172d32ed817f9a7f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ff45ac8a9f383cb6c1f2237e18d8f2ee = $(`<div id="html_ff45ac8a9f383cb6c1f2237e18d8f2ee" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1757155830440<br>Location: 2400 CLIFFORD AVE<br>Beat: C5</div>`)[0];
+                popup_6161941d539a5437172d32ed817f9a7f.setContent(html_ff45ac8a9f383cb6c1f2237e18d8f2ee);
+            
+        
+
+        circle_marker_aea3184a77abbd152a3b93d386fecb07.bindPopup(popup_6161941d539a5437172d32ed817f9a7f)
+        ;
+
+        
+    
+    
+            var circle_marker_e7cf354500fd622cd10b945ea826803f = L.circleMarker(
+                [36.0854070431067, -115.172363407656],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_4f407ef5169acbada511bbb21b8e61c9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7cd303dd6a82aedab4efced74f768527 = $(`<div id="html_7cd303dd6a82aedab4efced74f768527" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1757247332947<br>Location: S LAS VEGAS BLVD & W RUSSELL RD<br>Beat: L5</div>`)[0];
+                popup_4f407ef5169acbada511bbb21b8e61c9.setContent(html_7cd303dd6a82aedab4efced74f768527);
+            
+        
+
+        circle_marker_e7cf354500fd622cd10b945ea826803f.bindPopup(popup_4f407ef5169acbada511bbb21b8e61c9)
+        ;
+
+        
+    
+    
+            var circle_marker_7211ee042641cfe592e2a08281d2ef42 = L.circleMarker(
+                [36.2129756377778, -115.094147066507],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_418d2b304519b5dfb44784fd6a20c69e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a895a2905d4d38946803216b2e55480d = $(`<div id="html_a895a2905d4d38946803216b2e55480d" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1757572236093<br>Location: 2900 SANDY LN<br>Beat: F3</div>`)[0];
+                popup_418d2b304519b5dfb44784fd6a20c69e.setContent(html_a895a2905d4d38946803216b2e55480d);
+            
+        
+
+        circle_marker_7211ee042641cfe592e2a08281d2ef42.bindPopup(popup_418d2b304519b5dfb44784fd6a20c69e)
+        ;
+
+        
+    
+    
+            var circle_marker_2d50d72864dd494466196cc38f5243fc = L.circleMarker(
+                [36.0385596033919, -115.14700568987],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_fda11c01809f97d5ee300eb4ba7079ef = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_604f90a113d2c3e1526dc91b05e31f4a = $(`<div id="html_604f90a113d2c3e1526dc91b05e31f4a" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1757891627333<br>Location: 8300 CROFTON CIR<br>Beat: S1</div>`)[0];
+                popup_fda11c01809f97d5ee300eb4ba7079ef.setContent(html_604f90a113d2c3e1526dc91b05e31f4a);
+            
+        
+
+        circle_marker_2d50d72864dd494466196cc38f5243fc.bindPopup(popup_fda11c01809f97d5ee300eb4ba7079ef)
+        ;
+
+        
+    
+    
+            var circle_marker_f98a2ae3f561adf1be7a4d52088ed048 = L.circleMarker(
+                [36.1816064333622, -115.076916751669],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_c90b28cf98c0f1c83ddf4c04329d0b62 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d9db4938431bdd5de65087a17e82a6b3 = $(`<div id="html_d9db4938431bdd5de65087a17e82a6b3" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1757923380000<br>Location: 4400 E WASHINGTON AVE<br>Beat: F1</div>`)[0];
+                popup_c90b28cf98c0f1c83ddf4c04329d0b62.setContent(html_d9db4938431bdd5de65087a17e82a6b3);
+            
+        
+
+        circle_marker_f98a2ae3f561adf1be7a4d52088ed048.bindPopup(popup_c90b28cf98c0f1c83ddf4c04329d0b62)
+        ;
+
+        
+    
+    
+            var circle_marker_78df3986e33839352ed6955433a40ea0 = L.circleMarker(
+                [36.2995903351838, -115.327941051565],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_230911c641a4d4e6ec43f4c85b6c7883 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8ccfcfdb94fd3a3beaad539a2e8d7841 = $(`<div id="html_8ccfcfdb94fd3a3beaad539a2e8d7841" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1758516900000<br>Location: 10600 MOUNT BLACKBURN AVE<br>Beat: X5</div>`)[0];
+                popup_230911c641a4d4e6ec43f4c85b6c7883.setContent(html_8ccfcfdb94fd3a3beaad539a2e8d7841);
+            
+        
+
+        circle_marker_78df3986e33839352ed6955433a40ea0.bindPopup(popup_230911c641a4d4e6ec43f4c85b6c7883)
+        ;
+
+        
+    
+    
+            var circle_marker_c7141f5cd7e491e09a01b9a3de1f38d3 = L.circleMarker(
+                [35.9944065199291, -115.183703127471],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_0fee29d0ba4380a191509396b488b058 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_189f65d7e4a11dd349397ed9d1c59c9f = $(`<div id="html_189f65d7e4a11dd349397ed9d1c59c9f" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1759120585380<br>Location: 10600 Dean Martin Dr<br>Beat: O5</div>`)[0];
+                popup_0fee29d0ba4380a191509396b488b058.setContent(html_189f65d7e4a11dd349397ed9d1c59c9f);
+            
+        
+
+        circle_marker_c7141f5cd7e491e09a01b9a3de1f38d3.bindPopup(popup_0fee29d0ba4380a191509396b488b058)
+        ;
+
+        
+    
+    
+            var circle_marker_b548ac54f29ece58cb0b8de78ad0ad19 = L.circleMarker(
+                [36.1414377720866, -115.096238307553],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_b17469bb75bbba7634bc93c08cc848ae = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_76e239b204026ed0c5eeec8a8e62d385 = $(`<div id="html_76e239b204026ed0c5eeec8a8e62d385" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1759656298120<br>Location: BOULDER HWY & KAREN AVE<br>Beat: H1</div>`)[0];
+                popup_b17469bb75bbba7634bc93c08cc848ae.setContent(html_76e239b204026ed0c5eeec8a8e62d385);
+            
+        
+
+        circle_marker_b548ac54f29ece58cb0b8de78ad0ad19.bindPopup(popup_b17469bb75bbba7634bc93c08cc848ae)
+        ;
+
+        
+    
+    
+            var circle_marker_8f648241ab41419b53f0d59b0b1cb6fa = L.circleMarker(
+                [36.1333383481126, -115.069922847597],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_485733f244910afe84e7de1d986dcdf9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1599061bc2a4da0034d4988f5a025e4f = $(`<div id="html_1599061bc2a4da0034d4988f5a025e4f" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1759843821513<br>Location: 4700 HAPPY VALLEY AVE<br>Beat: H1</div>`)[0];
+                popup_485733f244910afe84e7de1d986dcdf9.setContent(html_1599061bc2a4da0034d4988f5a025e4f);
+            
+        
+
+        circle_marker_8f648241ab41419b53f0d59b0b1cb6fa.bindPopup(popup_485733f244910afe84e7de1d986dcdf9)
+        ;
+
+        
+    
+    
+            var circle_marker_20868acf137876317b7f48247813d32b = L.circleMarker(
+                [36.0672416739628, -115.113741216528],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_b17fdbec8de7e3d09fc6807e8cebea72 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7008d784aa4a24438a3bdadc3f3913e6 = $(`<div id="html_7008d784aa4a24438a3bdadc3f3913e6" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1759988013687<br>Location: 2600 E SUNSET RD<br>Beat: L5</div>`)[0];
+                popup_b17fdbec8de7e3d09fc6807e8cebea72.setContent(html_7008d784aa4a24438a3bdadc3f3913e6);
+            
+        
+
+        circle_marker_20868acf137876317b7f48247813d32b.bindPopup(popup_b17fdbec8de7e3d09fc6807e8cebea72)
+        ;
+
+        
+    
+    
+            var circle_marker_f0c2f4e408c3a6898656d7a656508648 = L.circleMarker(
+                [36.188800429671, -115.238190881279],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_ca029854590c899d89222de5d6944e43 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7ed0e7a8509be48916189cb344ce51ad = $(`<div id="html_7ed0e7a8509be48916189cb344ce51ad" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1760323700710<br>Location: 1600 Burningwood<br>Beat: U1</div>`)[0];
+                popup_ca029854590c899d89222de5d6944e43.setContent(html_7ed0e7a8509be48916189cb344ce51ad);
+            
+        
+
+        circle_marker_f0c2f4e408c3a6898656d7a656508648.bindPopup(popup_ca029854590c899d89222de5d6944e43)
+        ;
+
+        
+    
+    
+            var circle_marker_20697f41610417af55f68867815aa0b3 = L.circleMarker(
+                [36.1948131677232, -115.155810389241],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_0cd4e26f3d04753374530e5976b1cf1b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_aa00c5d70ac6ceea0f03f655bca69e20 = $(`<div id="html_aa00c5d70ac6ceea0f03f655bca69e20" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1760398199213<br>Location: 1900 J ST<br>Beat: W3</div>`)[0];
+                popup_0cd4e26f3d04753374530e5976b1cf1b.setContent(html_aa00c5d70ac6ceea0f03f655bca69e20);
+            
+        
+
+        circle_marker_20697f41610417af55f68867815aa0b3.bindPopup(popup_0cd4e26f3d04753374530e5976b1cf1b)
+        ;
+
+        
+    
+    
+            var circle_marker_a0f4e5a23a2e82bbe59501d74fe8ee8f = L.circleMarker(
+                [36.1836408492843, -115.22862955083],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_e7fdadc3e47e3f5484511bcaa2fb97a6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_dd7359d74ce5b9b9553757af8fab828b = $(`<div id="html_dd7359d74ce5b9b9553757af8fab828b" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1760613420000<br>Location: 6200 CARMEN BLVD<br>Beat: U1</div>`)[0];
+                popup_e7fdadc3e47e3f5484511bcaa2fb97a6.setContent(html_dd7359d74ce5b9b9553757af8fab828b);
+            
+        
+
+        circle_marker_a0f4e5a23a2e82bbe59501d74fe8ee8f.bindPopup(popup_e7fdadc3e47e3f5484511bcaa2fb97a6)
+        ;
+
+        
+    
+    
+            var circle_marker_3f3cfa6ba8e9eaa66e6d726242255537 = L.circleMarker(
+                [36.0498259235657, -115.216628824179],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_5b7e1b563b1dee0aa381eb7ddf43784a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_eccc7d752db98be54f5929058c4115ba = $(`<div id="html_eccc7d752db98be54f5929058c4115ba" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1760685259730<br>Location: LINDELL RD & W ROBINDALE RD<br>Beat: O1</div>`)[0];
+                popup_5b7e1b563b1dee0aa381eb7ddf43784a.setContent(html_eccc7d752db98be54f5929058c4115ba);
+            
+        
+
+        circle_marker_3f3cfa6ba8e9eaa66e6d726242255537.bindPopup(popup_5b7e1b563b1dee0aa381eb7ddf43784a)
+        ;
+
+        
+    
+    
+            var circle_marker_7aac178aa6e9bf6413032e9e8b5363a2 = L.circleMarker(
+                [36.1683429558393, -115.14191157359],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_b4bcdf00194ed2ca0a70faca53fcb865 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6bf23a3533579da37825edcd29f109f5 = $(`<div id="html_6bf23a3533579da37825edcd29f109f5" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1760781903960<br>Location: E CARSON AVE & S LAS VEGAS BLVD<br>Beat: A1</div>`)[0];
+                popup_b4bcdf00194ed2ca0a70faca53fcb865.setContent(html_6bf23a3533579da37825edcd29f109f5);
+            
+        
+
+        circle_marker_7aac178aa6e9bf6413032e9e8b5363a2.bindPopup(popup_b4bcdf00194ed2ca0a70faca53fcb865)
+        ;
+
+        
+    
+    
+            var circle_marker_661a60809de035a0fbc94df85979ea45 = L.circleMarker(
+                [36.2079042850398, -115.338180207968],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_f507e27a4ddf096fe820feb3f1756f7c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_80da5e1bc35569bbb81f20a3f37fcdd7 = $(`<div id="html_80da5e1bc35569bbb81f20a3f37fcdd7" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1761089700000<br>Location: 11000 Glacier View Ave<br>Beat: V2</div>`)[0];
+                popup_f507e27a4ddf096fe820feb3f1756f7c.setContent(html_80da5e1bc35569bbb81f20a3f37fcdd7);
+            
+        
+
+        circle_marker_661a60809de035a0fbc94df85979ea45.bindPopup(popup_f507e27a4ddf096fe820feb3f1756f7c)
+        ;
+
+        
+    
+    
+            var circle_marker_3a54564524469eed272bdad9571b7f42 = L.circleMarker(
+                [36.1610489854915, -115.119041731186],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_c3d2f8b9808d88ea970cc824e561d705 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_eebc524cb5d5e50546725c4c5b8a4ff6 = $(`<div id="html_eebc524cb5d5e50546725c4c5b8a4ff6" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1761803400000<br>Location: 2100 FREMONT ST<br>Beat: B4</div>`)[0];
+                popup_c3d2f8b9808d88ea970cc824e561d705.setContent(html_eebc524cb5d5e50546725c4c5b8a4ff6);
+            
+        
+
+        circle_marker_3a54564524469eed272bdad9571b7f42.bindPopup(popup_c3d2f8b9808d88ea970cc824e561d705)
+        ;
+
+        
+    
+    
+            var circle_marker_337e998e2c51f4fbe33b9f0959bd0967 = L.circleMarker(
+                [36.1557567760428, -115.114820651818],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_b397f62a44898c50b5c2a8d02ca42d58 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_53549d771fa9c909e31f03e28d33860b = $(`<div id="html_53549d771fa9c909e31f03e28d33860b" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1762371180000<br>Location: 2400 Clifford Ave<br>Beat: C5</div>`)[0];
+                popup_b397f62a44898c50b5c2a8d02ca42d58.setContent(html_53549d771fa9c909e31f03e28d33860b);
+            
+        
+
+        circle_marker_337e998e2c51f4fbe33b9f0959bd0967.bindPopup(popup_b397f62a44898c50b5c2a8d02ca42d58)
+        ;
+
+        
+    
+    
+            var circle_marker_c05487b0e836d9da933a9284ea95f4cb = L.circleMarker(
+                [36.2323708484071, -115.332360163407],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_8dbe46f08889f8efe2dbfcd3ede26526 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8ad2aa304e3a844138287b6504ddea4f = $(`<div id="html_8ad2aa304e3a844138287b6504ddea4f" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1762388040000<br>Location: 10700 ATTLEBORO PARK AVE<br>Beat: X1</div>`)[0];
+                popup_8dbe46f08889f8efe2dbfcd3ede26526.setContent(html_8ad2aa304e3a844138287b6504ddea4f);
+            
+        
+
+        circle_marker_c05487b0e836d9da933a9284ea95f4cb.bindPopup(popup_8dbe46f08889f8efe2dbfcd3ede26526)
+        ;
+
+        
+    
+    
+            var circle_marker_0d6b47e470b0e639c3880cf6f4ae48b2 = L.circleMarker(
+                [36.0791675626605, -115.2101045863],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_7795bd3bd5c9b8486162aba90b4370ca = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3fbc33ab1f89f07a9f8ffb2b3ef400ee = $(`<div id="html_3fbc33ab1f89f07a9f8ffb2b3ef400ee" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1762589884960<br>Location: 5000 W PATRICK LN<br>Beat: P4</div>`)[0];
+                popup_7795bd3bd5c9b8486162aba90b4370ca.setContent(html_3fbc33ab1f89f07a9f8ffb2b3ef400ee);
+            
+        
+
+        circle_marker_0d6b47e470b0e639c3880cf6f4ae48b2.bindPopup(popup_7795bd3bd5c9b8486162aba90b4370ca)
+        ;
+
+        
+    
+    
+            var circle_marker_79172769527ff1a23dce65ca702956e1 = L.circleMarker(
+                [36.1144375919531, -115.091662155609],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_7f72a9dd25c9056b65bc5fc8e38a861d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_22b41106d65640edb9149674123caa29 = $(`<div id="html_22b41106d65640edb9149674123caa29" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1763025420000<br>Location: 4100 S SANDHILL RD<br>Beat: H3</div>`)[0];
+                popup_7f72a9dd25c9056b65bc5fc8e38a861d.setContent(html_22b41106d65640edb9149674123caa29);
+            
+        
+
+        circle_marker_79172769527ff1a23dce65ca702956e1.bindPopup(popup_7f72a9dd25c9056b65bc5fc8e38a861d)
+        ;
+
+        
+    
+    
+            var circle_marker_33733a6e2e9546699bc7cfd4170d388f = L.circleMarker(
+                [36.0527607016066, -115.18467977839],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_1a4f83983e05742a518768b350250084 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1d9336a5eee951d1491b8310a797b469 = $(`<div id="html_1d9336a5eee951d1491b8310a797b469" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1763299265343<br>Location: 7500 DEAN MARTIN DR<br>Beat: O1</div>`)[0];
+                popup_1a4f83983e05742a518768b350250084.setContent(html_1d9336a5eee951d1491b8310a797b469);
+            
+        
+
+        circle_marker_33733a6e2e9546699bc7cfd4170d388f.bindPopup(popup_1a4f83983e05742a518768b350250084)
+        ;
+
+        
+    
+    
+            var circle_marker_53e74503aa5782f1a9448763abef7583 = L.circleMarker(
+                [36.1204811805839, -115.142805699333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_a35052c14b3247719e3ad731057b8118 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5be80b0f103a921f8c4346fcd39edf74 = $(`<div id="html_5be80b0f103a921f8c4346fcd39edf74" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1764496440000<br>Location: 3800 Cambridge St<br>Beat: N2</div>`)[0];
+                popup_a35052c14b3247719e3ad731057b8118.setContent(html_5be80b0f103a921f8c4346fcd39edf74);
+            
+        
+
+        circle_marker_53e74503aa5782f1a9448763abef7583.bindPopup(popup_a35052c14b3247719e3ad731057b8118)
+        ;
+
+        
+    
+    
+            var circle_marker_dc2cbb302e61162f2a2aab07877ae2e3 = L.circleMarker(
+                [36.1134949732437, -115.197118927928],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_c9d6b4c66b26a63244e0d346660d48fe = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2d3f65b2758aaa6d9a08ba348418760b = $(`<div id="html_2d3f65b2758aaa6d9a08ba348418760b" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1764606642000<br>Location: 4200 ARVILLE ST<br>Beat: P4</div>`)[0];
+                popup_c9d6b4c66b26a63244e0d346660d48fe.setContent(html_2d3f65b2758aaa6d9a08ba348418760b);
+            
+        
+
+        circle_marker_dc2cbb302e61162f2a2aab07877ae2e3.bindPopup(popup_c9d6b4c66b26a63244e0d346660d48fe)
+        ;
+
+        
+    
+    
+            var circle_marker_838cb7d88fb618f44bc542f1dd4dc566 = L.circleMarker(
+                [36.1606159728267, -115.131805478593],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_969c9abee34af99b16538cc422c885b6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e7e99afc964dd9c0b23fbf9a3058354f = $(`<div id="html_e7e99afc964dd9c0b23fbf9a3058354f" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1764670080000<br>Location: 400 S 15TH ST<br>Beat: A5</div>`)[0];
+                popup_969c9abee34af99b16538cc422c885b6.setContent(html_e7e99afc964dd9c0b23fbf9a3058354f);
+            
+        
+
+        circle_marker_838cb7d88fb618f44bc542f1dd4dc566.bindPopup(popup_969c9abee34af99b16538cc422c885b6)
+        ;
+
+        
+    
+    
+            var circle_marker_90c5d3b65f0058c7b854805f76c3d61d = L.circleMarker(
+                [36.0964517811257, -115.121102790252],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_710f5ab815fdfe41a806f7d08117004a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a1d434c2b82cf882daab972330d6700f = $(`<div id="html_a1d434c2b82cf882daab972330d6700f" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1764680820000<br>Location: 2200 E RENO AVE<br>Beat: N4</div>`)[0];
+                popup_710f5ab815fdfe41a806f7d08117004a.setContent(html_a1d434c2b82cf882daab972330d6700f);
+            
+        
+
+        circle_marker_90c5d3b65f0058c7b854805f76c3d61d.bindPopup(popup_710f5ab815fdfe41a806f7d08117004a)
+        ;
+
+        
+    
+    
+            var circle_marker_c29e4346e189063e2a29213744cd768b = L.circleMarker(
+                [36.182361968455, -115.153173951927],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_d7944ce544291c641b6bb9c2ff66b2ab = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c6f62835d8983f29332b5843e4637402 = $(`<div id="html_c6f62835d8983f29332b5843e4637402" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1765017057000<br>Location: 1000 Cunningham Dr<br>Beat: W4</div>`)[0];
+                popup_d7944ce544291c641b6bb9c2ff66b2ab.setContent(html_c6f62835d8983f29332b5843e4637402);
+            
+        
+
+        circle_marker_c29e4346e189063e2a29213744cd768b.bindPopup(popup_d7944ce544291c641b6bb9c2ff66b2ab)
+        ;
+
+        
+    
+    
+            var circle_marker_9be07deb371ae143d97244b9e8146e4b = L.circleMarker(
+                [36.2427437513421, -115.253285779236],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_177e4126bc0891e820bc1463e8391577 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b74507c7cc1d1b07dd70fca78dac8e06 = $(`<div id="html_b74507c7cc1d1b07dd70fca78dac8e06" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1765503147883<br>Location: 4500 VOGUE ST<br>Beat: X1</div>`)[0];
+                popup_177e4126bc0891e820bc1463e8391577.setContent(html_b74507c7cc1d1b07dd70fca78dac8e06);
+            
+        
+
+        circle_marker_9be07deb371ae143d97244b9e8146e4b.bindPopup(popup_177e4126bc0891e820bc1463e8391577)
+        ;
+
+        
+    
+    
+            var circle_marker_cfe69718c4646309fdc44723a2f0f4b5 = L.circleMarker(
+                [36.0950684264736, -115.138927608068],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_b407250cadaf8840da0f878aa1d3dd93 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_bfdf8b509e05a128b50d13ed1a04e81b = $(`<div id="html_bfdf8b509e05a128b50d13ed1a04e81b" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1765997520000<br>Location: 5200 Greene Ln<br>Beat: N4</div>`)[0];
+                popup_b407250cadaf8840da0f878aa1d3dd93.setContent(html_bfdf8b509e05a128b50d13ed1a04e81b);
+            
+        
+
+        circle_marker_cfe69718c4646309fdc44723a2f0f4b5.bindPopup(popup_b407250cadaf8840da0f878aa1d3dd93)
+        ;
+
+        
+    
+    
+            var circle_marker_78bcbca936a5cd8e1816c798f334384b = L.circleMarker(
+                [36.1894165776719, -115.151943172539],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_30e19cb5f63fe66810264b920c960297 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7fd40d40e015985d10b26ed1820ef697 = $(`<div id="html_7fd40d40e015985d10b26ed1820ef697" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1766089478207<br>Location: 1600 H ST<br>Beat: W3</div>`)[0];
+                popup_30e19cb5f63fe66810264b920c960297.setContent(html_7fd40d40e015985d10b26ed1820ef697);
+            
+        
+
+        circle_marker_78bcbca936a5cd8e1816c798f334384b.bindPopup(popup_30e19cb5f63fe66810264b920c960297)
+        ;
+
+        
+    
+    
+            var circle_marker_de665a57acf172540bdf7f30fcd29cd5 = L.circleMarker(
+                [36.0146676663863, -115.157692850445],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_1795ce6529dd73caf8426cb5736d3bee = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_34fe641f5bbc6f996f55e3f2be585f77 = $(`<div id="html_34fe641f5bbc6f996f55e3f2be585f77" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1766315700000<br>Location: 300 E Silverado Ranch Blvd<br>Beat: S3</div>`)[0];
+                popup_1795ce6529dd73caf8426cb5736d3bee.setContent(html_34fe641f5bbc6f996f55e3f2be585f77);
+            
+        
+
+        circle_marker_de665a57acf172540bdf7f30fcd29cd5.bindPopup(popup_1795ce6529dd73caf8426cb5736d3bee)
+        ;
+
+        
+    
+    
+            var circle_marker_3fe26aaf65303ecbc8be7ea25c8c9209 = L.circleMarker(
+                [36.1607789809621, -115.122882605897],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_515175285008e9ad946cc5f867fc040f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_20a36c4b15f1c77870c6ea0121320f4f = $(`<div id="html_20a36c4b15f1c77870c6ea0121320f4f" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1766467860000<br>Location: 1800 LEWIS AVE<br>Beat: B4</div>`)[0];
+                popup_515175285008e9ad946cc5f867fc040f.setContent(html_20a36c4b15f1c77870c6ea0121320f4f);
+            
+        
+
+        circle_marker_3fe26aaf65303ecbc8be7ea25c8c9209.bindPopup(popup_515175285008e9ad946cc5f867fc040f)
+        ;
+
+        
+    
+    
+            var circle_marker_b5ae3f852ca6cdbb4ca57377721c9196 = L.circleMarker(
+                [36.1815686941612, -115.120009809824],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_6bb38d4d085a5ad2a7c59b08dd2bf227 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ef54b9677971fa3e7ab2218ab8ddc334 = $(`<div id="html_ef54b9677971fa3e7ab2218ab8ddc334" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1766479020000<br>Location: 2200 Constantine Ave<br>Beat: B2</div>`)[0];
+                popup_6bb38d4d085a5ad2a7c59b08dd2bf227.setContent(html_ef54b9677971fa3e7ab2218ab8ddc334);
+            
+        
+
+        circle_marker_b5ae3f852ca6cdbb4ca57377721c9196.bindPopup(popup_6bb38d4d085a5ad2a7c59b08dd2bf227)
+        ;
+
+        
+    
+    
+            var circle_marker_90e4293e1f843aec28529290635b39a6 = L.circleMarker(
+                [36.0559550045621, -115.294335084255],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_044b692d53d9f8b9ccc06a7f670f2cbc = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_bee01661c69736bc1f8826f6f7bf01f3 = $(`<div id="html_bee01661c69736bc1f8826f6f7bf01f3" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1766809072523<br>Location: 7200 Powers St<br>Beat: R4</div>`)[0];
+                popup_044b692d53d9f8b9ccc06a7f670f2cbc.setContent(html_bee01661c69736bc1f8826f6f7bf01f3);
+            
+        
+
+        circle_marker_90e4293e1f843aec28529290635b39a6.bindPopup(popup_044b692d53d9f8b9ccc06a7f670f2cbc)
+        ;
+
+        
+    
+    
+            var circle_marker_ee557a64efe930a4f948dc47555b96e1 = L.circleMarker(
+                [36.167624005977, -115.146674377228],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_b2121d41253bf76c520176877a0769d3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_10f5fc24e3ff9b80ad6bf80b8c3b8e0a = $(`<div id="html_10f5fc24e3ff9b80ad6bf80b8c3b8e0a" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1766823994000<br>Location: 300 S Casino Center Blvd<br>Beat: D1</div>`)[0];
+                popup_b2121d41253bf76c520176877a0769d3.setContent(html_10f5fc24e3ff9b80ad6bf80b8c3b8e0a);
+            
+        
+
+        circle_marker_ee557a64efe930a4f948dc47555b96e1.bindPopup(popup_b2121d41253bf76c520176877a0769d3)
+        ;
+
+        
+    
+    
+            var circle_marker_b5c87aaab05633b5174077d9d9139337 = L.circleMarker(
+                [36.1780193729448, -115.030302877079],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_7a797bda01b3af554c1e72508e61d4e8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2288590aa7aa858798f357a10dd335f8 = $(`<div id="html_2288590aa7aa858798f357a10dd335f8" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1766906880000<br>Location: 6400 NEW BRUNSWICK AVE<br>Beat: G3</div>`)[0];
+                popup_7a797bda01b3af554c1e72508e61d4e8.setContent(html_2288590aa7aa858798f357a10dd335f8);
+            
+        
+
+        circle_marker_b5c87aaab05633b5174077d9d9139337.bindPopup(popup_7a797bda01b3af554c1e72508e61d4e8)
+        ;
+
+        
+    
+    
+            var circle_marker_5fa82a517df391669bb095dc6e01b5fd = L.circleMarker(
+                [36.1268974782114, -115.139778937299],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_0a88001012607ff9ab2c7f34d50a6028 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_68871445fec0123d0e53aa330fcf7932 = $(`<div id="html_68871445fec0123d0e53aa330fcf7932" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1766953303183<br>Location: 1000 SIERRA VISTA DR<br>Beat: N2</div>`)[0];
+                popup_0a88001012607ff9ab2c7f34d50a6028.setContent(html_68871445fec0123d0e53aa330fcf7932);
+            
+        
+
+        circle_marker_5fa82a517df391669bb095dc6e01b5fd.bindPopup(popup_0a88001012607ff9ab2c7f34d50a6028)
+        ;
+
+        
+    
+    
+            var circle_marker_582931e70474d8d384b758a56342ff4c = L.circleMarker(
+                [36.1302530892498, -115.121527122558],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_c2e11e324b46eb5f94680cccf3e75809 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ed41f92615eb2326c63d898e282c2283 = $(`<div id="html_ed41f92615eb2326c63d898e282c2283" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1767025020000<br>Location: 2200 E DESERT INN RD<br>Beat: L1</div>`)[0];
+                popup_c2e11e324b46eb5f94680cccf3e75809.setContent(html_ed41f92615eb2326c63d898e282c2283);
+            
+        
+
+        circle_marker_582931e70474d8d384b758a56342ff4c.bindPopup(popup_c2e11e324b46eb5f94680cccf3e75809)
+        ;
+
+        
+    
+    
+            var circle_marker_aebaeaafebe94e67df3e986eb02371a1 = L.circleMarker(
+                [36.0695827220224, -115.090966765987],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_5e336de51fa7327cde3187da373e9818 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b6a3282b049bfe921ebe4408b7a8a5fc = $(`<div id="html_b6a3282b049bfe921ebe4408b7a8a5fc" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1767720360000<br>Location: 6600 S Sandhill<br>Beat: H4</div>`)[0];
+                popup_5e336de51fa7327cde3187da373e9818.setContent(html_b6a3282b049bfe921ebe4408b7a8a5fc);
+            
+        
+
+        circle_marker_aebaeaafebe94e67df3e986eb02371a1.bindPopup(popup_5e336de51fa7327cde3187da373e9818)
+        ;
+
+        
+    
+    
+            var circle_marker_b1ba42bd255777b1f4a73c6dda6e2a62 = L.circleMarker(
+                [36.1065973409024, -115.150094229097],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_14ad3f8eacec59846eb77d88cd4bbc89 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a6fa0e2fe8f38a5a3f45d8089b61cc07 = $(`<div id="html_a6fa0e2fe8f38a5a3f45d8089b61cc07" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1767751440000<br>Location: 4600 University Center<br>Beat: N3</div>`)[0];
+                popup_14ad3f8eacec59846eb77d88cd4bbc89.setContent(html_a6fa0e2fe8f38a5a3f45d8089b61cc07);
+            
+        
+
+        circle_marker_b1ba42bd255777b1f4a73c6dda6e2a62.bindPopup(popup_14ad3f8eacec59846eb77d88cd4bbc89)
+        ;
+
+        
+    
+    
+            var circle_marker_dbc43e2faaa5320b9ee2103367963968 = L.circleMarker(
+                [36.1537292626099, -115.156280933027],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_4c92198b24c17475f903e5c4cbf07701 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7bc37b4a2692969274aca80c6f086b0f = $(`<div id="html_7bc37b4a2692969274aca80c6f086b0f" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1768372260000<br>Location: 200 W UTAH AVE<br>Beat: C1</div>`)[0];
+                popup_4c92198b24c17475f903e5c4cbf07701.setContent(html_7bc37b4a2692969274aca80c6f086b0f);
+            
+        
+
+        circle_marker_dbc43e2faaa5320b9ee2103367963968.bindPopup(popup_4c92198b24c17475f903e5c4cbf07701)
+        ;
+
+        
+    
+    
+            var circle_marker_675890838efe5e73a883a158e2eedc64 = L.circleMarker(
+                [36.1486586875609, -115.123545206799],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_4638ad3cf2641eb4838678d2c16f45aa = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_448072912e3f4c1c27e91a1582384260 = $(`<div id="html_448072912e3f4c1c27e91a1582384260" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1769201782980<br>Location: 1800 CANOSA AVE<br>Beat: C4</div>`)[0];
+                popup_4638ad3cf2641eb4838678d2c16f45aa.setContent(html_448072912e3f4c1c27e91a1582384260);
+            
+        
+
+        circle_marker_675890838efe5e73a883a158e2eedc64.bindPopup(popup_4638ad3cf2641eb4838678d2c16f45aa)
+        ;
+
+        
+    
+    
+            var circle_marker_569e0c870a0841c2849a5e763affc805 = L.circleMarker(
+                [36.0062642629618, -115.280842364497],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_07b0a87f420021e173f7e3f10bd57495 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_45d44116544fc5925a23bdbed50c5d09 = $(`<div id="html_45d44116544fc5925a23bdbed50c5d09" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1769613600000<br>Location: 8600 ROWLAND BLUFF AVE<br>Beat: O4</div>`)[0];
+                popup_07b0a87f420021e173f7e3f10bd57495.setContent(html_45d44116544fc5925a23bdbed50c5d09);
+            
+        
+
+        circle_marker_569e0c870a0841c2849a5e763affc805.bindPopup(popup_07b0a87f420021e173f7e3f10bd57495)
+        ;
+
+        
+    
+    
+            var circle_marker_a3ff9466cb0574f8176183d218e302df = L.circleMarker(
+                [36.0373754791836, -115.135479777496],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_a559d95886a5e2c792a6668ae3970ddd = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1704960fc224fec264adf06ceb163d20 = $(`<div id="html_1704960fc224fec264adf06ceb163d20" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1770112380000<br>Location: 8400 S Maryland<br>Beat: S2</div>`)[0];
+                popup_a559d95886a5e2c792a6668ae3970ddd.setContent(html_1704960fc224fec264adf06ceb163d20);
+            
+        
+
+        circle_marker_a3ff9466cb0574f8176183d218e302df.bindPopup(popup_a559d95886a5e2c792a6668ae3970ddd)
+        ;
+
+        
+    
+    
+            var circle_marker_3f626de14ebfc7f6193ca63a67fa6035 = L.circleMarker(
+                [36.1243733209595, -115.155161092991],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_1db0c8dab867d8db337f39bb15e8d07a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6ad7bf7815e94dc0b489cd73929fd170 = $(`<div id="html_6ad7bf7815e94dc0b489cd73929fd170" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1770352380000<br>Location: 3600 Paradise<br>Beat: N2</div>`)[0];
+                popup_1db0c8dab867d8db337f39bb15e8d07a.setContent(html_6ad7bf7815e94dc0b489cd73929fd170);
+            
+        
+
+        circle_marker_3f626de14ebfc7f6193ca63a67fa6035.bindPopup(popup_1db0c8dab867d8db337f39bb15e8d07a)
+        ;
+
+        
+    
+    
+            var circle_marker_61ea3d3bbbee0303bb4cf12838d1ab14 = L.circleMarker(
+                [36.165869978795, -115.169668295522],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_d282a38a19efd0f71484ee67116d0e76 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e6d37eb9cfd04ed783df687885740256 = $(`<div id="html_e6d37eb9cfd04ed783df687885740256" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1770462314213<br>Location: ALTA DR & S TONOPAH DR<br>Beat: U3</div>`)[0];
+                popup_d282a38a19efd0f71484ee67116d0e76.setContent(html_e6d37eb9cfd04ed783df687885740256);
+            
+        
+
+        circle_marker_61ea3d3bbbee0303bb4cf12838d1ab14.bindPopup(popup_d282a38a19efd0f71484ee67116d0e76)
+        ;
+
+        
+    
+    
+            var circle_marker_ecc5eb5e75741e7509f46bed5e7b12c9 = L.circleMarker(
+                [36.1697536481624, -115.13626962571],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_6f9e3a8b89d445a0db059327fca2f752 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1cd160fb06034bd37f8ac2a4e60faa8d = $(`<div id="html_1cd160fb06034bd37f8ac2a4e60faa8d" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1770703080000<br>Location: 200 N 8TH ST<br>Beat: A4</div>`)[0];
+                popup_6f9e3a8b89d445a0db059327fca2f752.setContent(html_1cd160fb06034bd37f8ac2a4e60faa8d);
+            
+        
+
+        circle_marker_ecc5eb5e75741e7509f46bed5e7b12c9.bindPopup(popup_6f9e3a8b89d445a0db059327fca2f752)
+        ;
+
+        
+    
+    
+            var circle_marker_a73b6f27374a509588295dc282299687 = L.circleMarker(
+                [36.1604496599095, -115.210607955018],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_7d0d12b7bc2a69c9800d41ac1bf93fa8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_dcc2c5412d4b13b32072747532fc6f0e = $(`<div id="html_dcc2c5412d4b13b32072747532fc6f0e" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1770751800000<br>Location: 900 BRUSH ST<br>Beat: U2</div>`)[0];
+                popup_7d0d12b7bc2a69c9800d41ac1bf93fa8.setContent(html_dcc2c5412d4b13b32072747532fc6f0e);
+            
+        
+
+        circle_marker_a73b6f27374a509588295dc282299687.bindPopup(popup_7d0d12b7bc2a69c9800d41ac1bf93fa8)
+        ;
+
+        
+    
+    
+            var circle_marker_4721b5a6f549e47444b4bf1161a86c79 = L.circleMarker(
+                [36.1031509775491, -115.12805609211],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_9e265077622746b993ef1199b486d0b4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_98d78d75bc74481ac5d71e5d9f29ea0e = $(`<div id="html_98d78d75bc74481ac5d71e5d9f29ea0e" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1770920100000<br>Location: 4800 Spencer<br>Beat: N3</div>`)[0];
+                popup_9e265077622746b993ef1199b486d0b4.setContent(html_98d78d75bc74481ac5d71e5d9f29ea0e);
+            
+        
+
+        circle_marker_4721b5a6f549e47444b4bf1161a86c79.bindPopup(popup_9e265077622746b993ef1199b486d0b4)
+        ;
+
+        
+    
+    
+            var circle_marker_429e130c61fd7389165cadbbd1be8fc3 = L.circleMarker(
+                [36.1980688894636, -115.261117098503],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_59722f230ff403ea71a07790337e1ce1 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_648b2eb1db85426d645eaff033b30e68 = $(`<div id="html_648b2eb1db85426d645eaff033b30e68" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1771119960000<br>Location: 2000 N BUFFALO DR<br>Beat: X1</div>`)[0];
+                popup_59722f230ff403ea71a07790337e1ce1.setContent(html_648b2eb1db85426d645eaff033b30e68);
+            
+        
+
+        circle_marker_429e130c61fd7389165cadbbd1be8fc3.bindPopup(popup_59722f230ff403ea71a07790337e1ce1)
+        ;
+
+        
+    
+    
+            var circle_marker_0b66201b5931f2b20a9787ff00e05ef6 = L.circleMarker(
+                [36.1155225481301, -115.187814141882],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_47c4bdad16649d0ebe67682d6dd8570d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9929bf9562608aed93bc56a0b10697a1 = $(`<div id="html_9929bf9562608aed93bc56a0b10697a1" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1771180980000<br>Location: 3700 W Flamingo<br>Beat: M5</div>`)[0];
+                popup_47c4bdad16649d0ebe67682d6dd8570d.setContent(html_9929bf9562608aed93bc56a0b10697a1);
+            
+        
+
+        circle_marker_0b66201b5931f2b20a9787ff00e05ef6.bindPopup(popup_47c4bdad16649d0ebe67682d6dd8570d)
+        ;
+
+        
+    
+    
+            var circle_marker_34bbe96712c2501d06193dc3e98497ff = L.circleMarker(
+                [36.1040951679813, -115.128363238784],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_6f76d2a03a595662fa69f66991896631 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d2ec6f4a3a635f82487b4e4973e71102 = $(`<div id="html_d2ec6f4a3a635f82487b4e4973e71102" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1771651080000<br>Location: 1700 GABRIEL DR<br>Beat: N3</div>`)[0];
+                popup_6f76d2a03a595662fa69f66991896631.setContent(html_d2ec6f4a3a635f82487b4e4973e71102);
+            
+        
+
+        circle_marker_34bbe96712c2501d06193dc3e98497ff.bindPopup(popup_6f76d2a03a595662fa69f66991896631)
+        ;
+
+        
+    
+    
+            var circle_marker_24241b9d7367603c3dbcfb30aeb2e534 = L.circleMarker(
+                [36.15834588742, -115.291558534069],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_d52390604ccd01b2c2d0709f706fe3af = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_289417f0526ec6271eafac209b25a27b = $(`<div id="html_289417f0526ec6271eafac209b25a27b" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Justifiable Homicide<br>ReportedOn: 1771809227343<br>Location: 1100 S FORT APACHE RD<br>Beat: V3</div>`)[0];
+                popup_d52390604ccd01b2c2d0709f706fe3af.setContent(html_289417f0526ec6271eafac209b25a27b);
+            
+        
+
+        circle_marker_24241b9d7367603c3dbcfb30aeb2e534.bindPopup(popup_d52390604ccd01b2c2d0709f706fe3af)
+        ;
+
+        
+    
+    
+            var circle_marker_9472f8eac27ea55b9bd5eb6887f2c8e9 = L.circleMarker(
+                [36.1374611373467, -115.208628239578],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_6a0ffe403163fdcb7f1b01b143a56c68 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_96767129ec91468fef354093096301ec = $(`<div id="html_96767129ec91468fef354093096301ec" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1771912860000<br>Location: 2800 S Decatur Blvd<br>Beat: P2</div>`)[0];
+                popup_6a0ffe403163fdcb7f1b01b143a56c68.setContent(html_96767129ec91468fef354093096301ec);
+            
+        
+
+        circle_marker_9472f8eac27ea55b9bd5eb6887f2c8e9.bindPopup(popup_6a0ffe403163fdcb7f1b01b143a56c68)
+        ;
+
+        
+    
+    
+            var circle_marker_580cdc32397c9bf76e93cd5a0ab66fa4 = L.circleMarker(
+                [36.1958935111947, -115.062014440156],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_d02b5d58c5f4dccf01547aadda934a21 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_45b2f1488501a03c6edfb6fa66d2ac98 = $(`<div id="html_45b2f1488501a03c6edfb6fa66d2ac98" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1772354340000<br>Location: E Lake Mead Blvd & N Nellis Blvd<br>Beat: F2</div>`)[0];
+                popup_d02b5d58c5f4dccf01547aadda934a21.setContent(html_45b2f1488501a03c6edfb6fa66d2ac98);
+            
+        
+
+        circle_marker_580cdc32397c9bf76e93cd5a0ab66fa4.bindPopup(popup_d02b5d58c5f4dccf01547aadda934a21)
+        ;
+
+        
+    
+    
+            var circle_marker_970690cc0d70836e74d64993e071fab0 = L.circleMarker(
+                [35.9858076882648, -115.183628501706],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_3b22b4ec54247d43b27e5e7b2aa2c7d4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9eb6d02a3fa6c261e2c5f8992e89db77 = $(`<div id="html_9eb6d02a3fa6c261e2c5f8992e89db77" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1772510340000<br>Location: 11200 Victoria Medici St<br>Beat: O5</div>`)[0];
+                popup_3b22b4ec54247d43b27e5e7b2aa2c7d4.setContent(html_9eb6d02a3fa6c261e2c5f8992e89db77);
+            
+        
+
+        circle_marker_970690cc0d70836e74d64993e071fab0.bindPopup(popup_3b22b4ec54247d43b27e5e7b2aa2c7d4)
+        ;
+
+        
+    
+    
+            var circle_marker_dfa2a5046cb63bc08316cb28a54a4647 = L.circleMarker(
+                [36.1104692722853, -115.218607202399],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_c48474b3b4c3691c5b8dcd9af66597aa = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ce7a71697b039a0bf916e73dbea973f5 = $(`<div id="html_ce7a71697b039a0bf916e73dbea973f5" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1773316140000<br>Location: 4300 Brookhaven<br>Beat: P4</div>`)[0];
+                popup_c48474b3b4c3691c5b8dcd9af66597aa.setContent(html_ce7a71697b039a0bf916e73dbea973f5);
+            
+        
+
+        circle_marker_dfa2a5046cb63bc08316cb28a54a4647.bindPopup(popup_c48474b3b4c3691c5b8dcd9af66597aa)
+        ;
+
+        
+    
+    
+            var circle_marker_753d405efd35a992ea174b821a643dfa = L.circleMarker(
+                [36.0229090908308, -115.278572943554],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_bed812ea8eb11a1260aed76f09c74dbe = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c64b72f40745b74ad2e8e8493c0ec5ef = $(`<div id="html_c64b72f40745b74ad2e8e8493c0ec5ef" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1773786480000<br>Location: 8900 S Durango Dr<br>Beat: O3</div>`)[0];
+                popup_bed812ea8eb11a1260aed76f09c74dbe.setContent(html_c64b72f40745b74ad2e8e8493c0ec5ef);
+            
+        
+
+        circle_marker_753d405efd35a992ea174b821a643dfa.bindPopup(popup_bed812ea8eb11a1260aed76f09c74dbe)
+        ;
+
+        
+    
+    
+            var circle_marker_9f8eb75fec63136fe1f0ae42f73b5687 = L.circleMarker(
+                [36.1248493681907, -115.28779795594],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_14e9961c7353d970017272560753e4b3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e2da26c433c438231a50370349a87ca1 = $(`<div id="html_e2da26c433c438231a50370349a87ca1" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1774174500000<br>Location: 8900 VIA VISTA CIR<br>Beat: R2</div>`)[0];
+                popup_14e9961c7353d970017272560753e4b3.setContent(html_e2da26c433c438231a50370349a87ca1);
+            
+        
+
+        circle_marker_9f8eb75fec63136fe1f0ae42f73b5687.bindPopup(popup_14e9961c7353d970017272560753e4b3)
+        ;
+
+        
+    
+    
+            var circle_marker_fec3610660fda8393cda487d62b0890f = L.circleMarker(
+                [36.0082534097143, -115.272421969287],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_dd744ab1ff42ad023751097ed1b4f30f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7655896d3ffc4f1a12dd91d7e0d69f35 = $(`<div id="html_7655896d3ffc4f1a12dd91d7e0d69f35" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1774571282703<br>Location: 8200 CUPERTINO HEIGHTS WAY<br>Beat: O4</div>`)[0];
+                popup_dd744ab1ff42ad023751097ed1b4f30f.setContent(html_7655896d3ffc4f1a12dd91d7e0d69f35);
+            
+        
+
+        circle_marker_fec3610660fda8393cda487d62b0890f.bindPopup(popup_dd744ab1ff42ad023751097ed1b4f30f)
+        ;
+
+        
+    
+    
+            var circle_marker_cbf31b84568fdd3ff04f8b4619daedab = L.circleMarker(
+                [36.1742842772054, -115.110685888283],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_541b0db4e190b43cb0de289f705ffcb0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_577e9e766f7d1ccba8a43f351e44a063 = $(`<div id="html_577e9e766f7d1ccba8a43f351e44a063" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1774597446963<br>Location: 2800 E Bonanza Rd<br>Beat: B3</div>`)[0];
+                popup_541b0db4e190b43cb0de289f705ffcb0.setContent(html_577e9e766f7d1ccba8a43f351e44a063);
+            
+        
+
+        circle_marker_cbf31b84568fdd3ff04f8b4619daedab.bindPopup(popup_541b0db4e190b43cb0de289f705ffcb0)
+        ;
+
+        
+    
+    
+            var circle_marker_4f3c7f72f59c22d303bfb9d93d80c57c = L.circleMarker(
+                [36.2684123571638, -115.254933933557],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_a14ec20cd186af16166e173a04464edb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5416d3ced851049144c0522bb011e98b = $(`<div id="html_5416d3ced851049144c0522bb011e98b" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1774932300000<br>Location: 5800 SKY POINTE DR<br>Beat: X4</div>`)[0];
+                popup_a14ec20cd186af16166e173a04464edb.setContent(html_5416d3ced851049144c0522bb011e98b);
+            
+        
+
+        circle_marker_4f3c7f72f59c22d303bfb9d93d80c57c.bindPopup(popup_a14ec20cd186af16166e173a04464edb)
+        ;
+
+        
+    
+    
+            var circle_marker_74004ed99ecaf46ae4947798bb4472f8 = L.circleMarker(
+                [36.1405875620065, -115.111400451628],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_05b737d3c62c052f48d9218f21605968 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ec6f025b1fc1dacb48b6a2e922ac0bb3 = $(`<div id="html_ec6f025b1fc1dacb48b6a2e922ac0bb3" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1775500264087<br>Location: 2800 KAREN AVE<br>Beat: L1</div>`)[0];
+                popup_05b737d3c62c052f48d9218f21605968.setContent(html_ec6f025b1fc1dacb48b6a2e922ac0bb3);
+            
+        
+
+        circle_marker_74004ed99ecaf46ae4947798bb4472f8.bindPopup(popup_05b737d3c62c052f48d9218f21605968)
+        ;
+
+        
+    
+    
+            var circle_marker_dba91727a53d68d4417ff32c456c060a = L.circleMarker(
+                [36.1152702479108, -115.132103974907],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_20717e697d2bf300c5dfe984d5fe7c53 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_cf00de317a841d182e460ffb8cb22d38 = $(`<div id="html_cf00de317a841d182e460ffb8cb22d38" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1775515260000<br>Location: 1500 E Flamingo<br>Beat: L2</div>`)[0];
+                popup_20717e697d2bf300c5dfe984d5fe7c53.setContent(html_cf00de317a841d182e460ffb8cb22d38);
+            
+        
+
+        circle_marker_dba91727a53d68d4417ff32c456c060a.bindPopup(popup_20717e697d2bf300c5dfe984d5fe7c53)
+        ;
+
+        
+    
+    
+            var circle_marker_514234b886df58916b266e05aa67dd8a = L.circleMarker(
+                [36.1109884399736, -115.172232757957],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_c30526e9815b218bc06c22c67be8331b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_475ba8c09f1bcd325cf2fa28ccc8f485 = $(`<div id="html_475ba8c09f1bcd325cf2fa28ccc8f485" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1775783741493<br>Location: 3600 S Las Vegas<br>Beat: M3</div>`)[0];
+                popup_c30526e9815b218bc06c22c67be8331b.setContent(html_475ba8c09f1bcd325cf2fa28ccc8f485);
+            
+        
+
+        circle_marker_514234b886df58916b266e05aa67dd8a.bindPopup(popup_c30526e9815b218bc06c22c67be8331b)
+        ;
+
+        
+    
+    
+            var circle_marker_133acf623a5b0f836c1fd42110225f63 = L.circleMarker(
+                [36.0941497794353, -115.046819152532],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_312ae342347659e0820c9b2485889487 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8421704d13e2b7904ede446a8c70a872 = $(`<div id="html_8421704d13e2b7904ede446a8c70a872" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1775870987167<br>Location: 5700 MISSOURI AVE<br>Beat: J4</div>`)[0];
+                popup_312ae342347659e0820c9b2485889487.setContent(html_8421704d13e2b7904ede446a8c70a872);
+            
+        
+
+        circle_marker_133acf623a5b0f836c1fd42110225f63.bindPopup(popup_312ae342347659e0820c9b2485889487)
+        ;
+
+        
+    
+    
+            var circle_marker_1711ebb2e1b319ff869ca3f79fb7142e = L.circleMarker(
+                [36.1594989431229, -115.201312311903],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_8aa0ebd2df06ba9c7a9474cfa223f4f7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_cc1da07db440eef03a408aa832e82e08 = $(`<div id="html_cc1da07db440eef03a408aa832e82e08" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1775930365597<br>Location: W CHARLESTON BLVD & ESSEX EAST DR<br>Beat: U3</div>`)[0];
+                popup_8aa0ebd2df06ba9c7a9474cfa223f4f7.setContent(html_cc1da07db440eef03a408aa832e82e08);
+            
+        
+
+        circle_marker_1711ebb2e1b319ff869ca3f79fb7142e.bindPopup(popup_8aa0ebd2df06ba9c7a9474cfa223f4f7)
+        ;
+
+        
+    
+    
+            var circle_marker_ca205d208f14e36a70cf00124848bd8c = L.circleMarker(
+                [36.1733600957372, -115.097597844826],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_d0e4d2c9db25dd29900b21e245117ff5 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b04e8a3b496b37734eed2ac8e4fedc0d = $(`<div id="html_b04e8a3b496b37734eed2ac8e4fedc0d" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1776784130867<br>Location: 3500 E BONANZA RD<br>Beat: G1</div>`)[0];
+                popup_d0e4d2c9db25dd29900b21e245117ff5.setContent(html_b04e8a3b496b37734eed2ac8e4fedc0d);
+            
+        
+
+        circle_marker_ca205d208f14e36a70cf00124848bd8c.bindPopup(popup_d0e4d2c9db25dd29900b21e245117ff5)
+        ;
+
+        
+    
+    
+            var circle_marker_d10203ae11e4e0a290150ade71e5f3bc = L.circleMarker(
+                [36.1459992336978, -115.198984351744],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_d419a0f2bc9253be588de5ae70ea4d5d);
+        
+    
+        var popup_782e173bcdaf9d47cc5ae192fdd782ca = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9a3c50452d47c3f8fb572feea8eb323f = $(`<div id="html_9a3c50452d47c3f8fb572feea8eb323f" style="width: 100.0%; height: 100.0%;">LVMPD Homicide Record<br>Offense: Murder and Nonnegligent Manslaughter<br>ReportedOn: 1777370640000<br>Location: 4300 Esmeralda Ave<br>Beat: U3</div>`)[0];
+                popup_782e173bcdaf9d47cc5ae192fdd782ca.setContent(html_9a3c50452d47c3f8fb572feea8eb323f);
+            
+        
+
+        circle_marker_d10203ae11e4e0a290150ade71e5f3bc.bindPopup(popup_782e173bcdaf9d47cc5ae192fdd782ca)
+        ;
+
+        
+    
+    
+            feature_group_d419a0f2bc9253be588de5ae70ea4d5d.addTo(map_f2406321afad2ec214b07725de790d41);
+        
+    
+            var layer_control_671fe4a8ffa62965da351c2f157ae928_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_674194ddd21a91485364d35e8a42856d,
+                },
+                overlays :  {
+                    "LVMPD public NIBRS homicide points" : feature_group_d419a0f2bc9253be588de5ae70ea4d5d,
+                },
+            };
+            let layer_control_671fe4a8ffa62965da351c2f157ae928 = L.control.layers(
+                layer_control_671fe4a8ffa62965da351c2f157ae928_layers.base_layers,
+                layer_control_671fe4a8ffa62965da351c2f157ae928_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_f2406321afad2ec214b07725de790d41);
+
+        
+</script>
+</html>
